@@ -1,0 +1,4 @@
+Invoking command in '/home/fazal/ros2_ws/build/msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/msg -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/msg
+Invoked command in '/home/fazal/ros2_ws/build/msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/msg -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/msg
+Invoking command in '/home/fazal/ros2_ws/build/msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/fazal/ros2_ws/build/msg -- -j8 -l8
+Invoked command in '/home/fazal/ros2_ws/build/msg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/fazal/ros2_ws/build/msg -- -j8 -l8

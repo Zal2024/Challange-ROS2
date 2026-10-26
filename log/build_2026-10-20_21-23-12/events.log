@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.000695] (simple_demo_cpp) JobQueued: {'identifier': 'simple_demo_cpp', 'dependencies': OrderedDict()}
+[0.001015] (simple_demo_cpp) JobStarted: {'identifier': 'simple_demo_cpp'}
+[0.014311] (simple_demo_cpp) JobProgress: {'identifier': 'simple_demo_cpp', 'progress': 'cmake'}
+[0.015201] (simple_demo_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/fazal/ros2_ws/src/simple_demo_cpp', '-DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/simple_demo_cpp'], 'cwd': '/home/fazal/ros2_ws/build/simple_demo_cpp', 'env': OrderedDict({'JJ_PAGER': 'cat', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'fazal', 'ANTIGRAVITY_SOURCE_METADATA': '{"tool":{"conversationId":"beacf5c3-de9d-4a14-8416-cea76e1b825d","stepIndex":60,"toolCall":{"id":"call_213397","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/fazal/ros2_ws \\\\u0026\\\\u0026 rm -rf build install log \\\\u0026\\\\u0026 colcon build\\",\\"WaitMsBeforeAsync\\":10000,\\"toolSummary\\":\\"Build ROS2 workspace with colcon\\"}","thinkingSignature":"Eq0CCqoCAWkUfROKBj0Rtw35Tt/MscpDlRQz7yoXzFkXS3XVDTyCuKz7Ks9/64ptWdagsrj/KOKc9zJ0NFuxtzb7wE+/PFRpFBO4bDKSP+XKoArhoO2Br0F6lsb5y/nGeRiK3yn8aoenPkiVf+9D5Yxpg/hAJYo/ianjRlNFHD4su2Os9OuCSQXjnmViwNsThOjXYvs0TcPO8YPW2NAYV/zUHXTjnebCVWE7jNyPeRr/6unSGNCxBoPWk77yHewbrbdJ1NOLRsiS9D4FQPK4OwWhnAqDeqnGZbu0lkdJQVBOYbS2XLKYwYyuj8VRzl0YpKzvHIiW7fnEyjXOetasbKjoi9RJwJ6mi8J0S6rw2ByvE8P3hY12KNVmoD2ENnLX8opsA6er/s5n0HV3ilBbPQ=="}}}', 'XDG_SEAT': 'seat0', 'GIT_EDITOR': 'false', 'SSH_AGENT_PID': '2031', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'ANTIGRAVITY_AGENTAPI_EXE': '/home/fazal/.local/bin/agy.1792502557268324874.old', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/fazal', 'OLDPWD': '/home/fazal', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'cat', 'LC_MONETARY': 'id_ID.UTF-8', 'JJ_EDITOR': 'false', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fazal', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'dumb', 'XDG_SESSION_ID': 'c2', 'ANTIGRAVITY_APP_DATA_DIR': '/home/fazal/.gemini/antigravity-cli', 'ANTIGRAVITY_LS_VERSION': 'cli-1.4.2', 'PATH': '/home/fazal/.gemini/antigravity-cli/bin:/home/fazal/.local/bin:/opt/ros/jazzy/bin:/home/fazal/.local/bin:/home/fazal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ThinkPad-X13-Yoga:@/tmp/.ICE-unix/1768,unix/ThinkPad-X13-Yoga:/tmp/.ICE-unix/1768', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9f92f2de_bdb8_4bb6_9740_f5c4682c32f1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'ANTIGRAVITY_CONVERSATION_ID': 'beacf5c3-de9d-4a14-8416-cea76e1b825d', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/fazal/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/tmp/ssh-fks7x0uzuNaX/agent.2030', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fazal', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ANTIGRAVITY_PROJECT_ID': 'default-cli-project', 'SHELL': '/bin/bash', 'ANTIGRAVITY_LS_ADDRESS': 'localhost:40205', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'XDG_VTNR': '7', 'ANTIGRAVITY_TRAJECTORY_ID': '0847c3eb-eb93-4a0c-9840-b6ecb4d928fc', 'PWD': '/home/fazal/ros2_ws/build/simple_demo_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/fazal/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'HGEDITOR': 'false', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'ANTIGRAVITY_CSRF_TOKEN': '061423f0-8e02-4820-8c6f-2edfb8d38dfe', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099663] (-) TimerEvent: {}
+[0.200325] (-) TimerEvent: {}
+[0.303564] (-) TimerEvent: {}
+[0.324964] (simple_demo_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.403774] (-) TimerEvent: {}
+[0.504442] (-) TimerEvent: {}
+[0.633108] (-) TimerEvent: {}
+[0.667928] (simple_demo_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.696611] (simple_demo_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.733237] (-) TimerEvent: {}
+[0.833685] (-) TimerEvent: {}
+[0.872205] (simple_demo_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.933827] (-) TimerEvent: {}
+[0.974827] (simple_demo_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.975732] (simple_demo_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.977461] (simple_demo_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.033975] (-) TimerEvent: {}
+[1.067901] (simple_demo_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.134084] (-) TimerEvent: {}
+[1.204714] (simple_demo_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.234177] (-) TimerEvent: {}
+[1.301110] (simple_demo_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.301605] (simple_demo_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.302867] (simple_demo_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.312591] (simple_demo_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.334258] (-) TimerEvent: {}
+[1.434587] (-) TimerEvent: {}
+[1.534924] (-) TimerEvent: {}
+[1.609032] (simple_demo_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.635064] (-) TimerEvent: {}
+[1.735392] (-) TimerEvent: {}
+[1.774032] (simple_demo_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.835501] (-) TimerEvent: {}
+[1.926013] (simple_demo_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.935593] (-) TimerEvent: {}
+[1.952863] (simple_demo_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.035703] (-) TimerEvent: {}
+[2.065328] (simple_demo_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.098942] (simple_demo_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.135817] (-) TimerEvent: {}
+[2.236148] (-) TimerEvent: {}
+[2.241707] (simple_demo_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.246577] (simple_demo_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.336272] (-) TimerEvent: {}
+[2.436607] (-) TimerEvent: {}
+[2.474218] (simple_demo_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.505118] (simple_demo_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.536706] (-) TimerEvent: {}
+[2.542471] (simple_demo_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.636846] (-) TimerEvent: {}
+[2.799752] (-) TimerEvent: {}
+[2.828727] (simple_demo_cpp) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.863463] (simple_demo_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.899891] (-) TimerEvent: {}
+[3.000172] (-) TimerEvent: {}
+[3.100495] (-) TimerEvent: {}
+[3.176441] (simple_demo_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.176977] (simple_demo_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.177296] (simple_demo_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.178851] (simple_demo_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.181071] (simple_demo_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.181463] (simple_demo_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.182415] (simple_demo_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.185385] (simple_demo_cpp) StdoutLine: {'line': b'-- Configuring done (3.2s)\n'}
+[3.200607] (-) TimerEvent: {}
+[3.211914] (simple_demo_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.225837] (simple_demo_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/fazal/ros2_ws/build/simple_demo_cpp\n'}
+[3.245195] (simple_demo_cpp) CommandEnded: {'returncode': 0}
+[3.246426] (simple_demo_cpp) JobProgress: {'identifier': 'simple_demo_cpp', 'progress': 'build'}
+[3.248029] (simple_demo_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fazal/ros2_ws/build/simple_demo_cpp', '--', '-j8', '-l8'], 'cwd': '/home/fazal/ros2_ws/build/simple_demo_cpp', 'env': OrderedDict({'JJ_PAGER': 'cat', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'fazal', 'ANTIGRAVITY_SOURCE_METADATA': '{"tool":{"conversationId":"beacf5c3-de9d-4a14-8416-cea76e1b825d","stepIndex":60,"toolCall":{"id":"call_213397","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/fazal/ros2_ws \\\\u0026\\\\u0026 rm -rf build install log \\\\u0026\\\\u0026 colcon build\\",\\"WaitMsBeforeAsync\\":10000,\\"toolSummary\\":\\"Build ROS2 workspace with colcon\\"}","thinkingSignature":"Eq0CCqoCAWkUfROKBj0Rtw35Tt/MscpDlRQz7yoXzFkXS3XVDTyCuKz7Ks9/64ptWdagsrj/KOKc9zJ0NFuxtzb7wE+/PFRpFBO4bDKSP+XKoArhoO2Br0F6lsb5y/nGeRiK3yn8aoenPkiVf+9D5Yxpg/hAJYo/ianjRlNFHD4su2Os9OuCSQXjnmViwNsThOjXYvs0TcPO8YPW2NAYV/zUHXTjnebCVWE7jNyPeRr/6unSGNCxBoPWk77yHewbrbdJ1NOLRsiS9D4FQPK4OwWhnAqDeqnGZbu0lkdJQVBOYbS2XLKYwYyuj8VRzl0YpKzvHIiW7fnEyjXOetasbKjoi9RJwJ6mi8J0S6rw2ByvE8P3hY12KNVmoD2ENnLX8opsA6er/s5n0HV3ilBbPQ=="}}}', 'XDG_SEAT': 'seat0', 'GIT_EDITOR': 'false', 'SSH_AGENT_PID': '2031', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'ANTIGRAVITY_AGENTAPI_EXE': '/home/fazal/.local/bin/agy.1792502557268324874.old', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/fazal', 'OLDPWD': '/home/fazal', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'cat', 'LC_MONETARY': 'id_ID.UTF-8', 'JJ_EDITOR': 'false', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fazal', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'dumb', 'XDG_SESSION_ID': 'c2', 'ANTIGRAVITY_APP_DATA_DIR': '/home/fazal/.gemini/antigravity-cli', 'ANTIGRAVITY_LS_VERSION': 'cli-1.4.2', 'PATH': '/home/fazal/.gemini/antigravity-cli/bin:/home/fazal/.local/bin:/opt/ros/jazzy/bin:/home/fazal/.local/bin:/home/fazal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ThinkPad-X13-Yoga:@/tmp/.ICE-unix/1768,unix/ThinkPad-X13-Yoga:/tmp/.ICE-unix/1768', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9f92f2de_bdb8_4bb6_9740_f5c4682c32f1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'ANTIGRAVITY_CONVERSATION_ID': 'beacf5c3-de9d-4a14-8416-cea76e1b825d', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/fazal/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/tmp/ssh-fks7x0uzuNaX/agent.2030', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fazal', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ANTIGRAVITY_PROJECT_ID': 'default-cli-project', 'SHELL': '/bin/bash', 'ANTIGRAVITY_LS_ADDRESS': 'localhost:40205', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'XDG_VTNR': '7', 'ANTIGRAVITY_TRAJECTORY_ID': '0847c3eb-eb93-4a0c-9840-b6ecb4d928fc', 'PWD': '/home/fazal/ros2_ws/build/simple_demo_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/fazal/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'HGEDITOR': 'false', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'ANTIGRAVITY_CSRF_TOKEN': '061423f0-8e02-4820-8c6f-2edfb8d38dfe', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.300749] (-) TimerEvent: {}
+[3.315495] (simple_demo_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o\x1b[0m\n'}
+[3.315966] (simple_demo_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[3.400886] (-) TimerEvent: {}
+[3.501228] (-) TimerEvent: {}
+[3.601553] (-) TimerEvent: {}
+[3.701988] (-) TimerEvent: {}
+[3.802624] (-) TimerEvent: {}
+[3.903116] (-) TimerEvent: {}
+[4.003708] (-) TimerEvent: {}
+[4.104263] (-) TimerEvent: {}
+[4.204654] (-) TimerEvent: {}
+[4.305008] (-) TimerEvent: {}
+[4.405294] (-) TimerEvent: {}
+[4.505601] (-) TimerEvent: {}
+[4.605929] (-) TimerEvent: {}
+[4.706279] (-) TimerEvent: {}
+[4.806588] (-) TimerEvent: {}
+[4.906956] (-) TimerEvent: {}
+[5.007330] (-) TimerEvent: {}
+[5.107699] (-) TimerEvent: {}
+[5.208074] (-) TimerEvent: {}
+[5.308487] (-) TimerEvent: {}
+[5.408872] (-) TimerEvent: {}
+[5.509254] (-) TimerEvent: {}
+[5.609665] (-) TimerEvent: {}
+[5.709980] (-) TimerEvent: {}
+[5.810380] (-) TimerEvent: {}
+[5.910771] (-) TimerEvent: {}
+[6.011151] (-) TimerEvent: {}
+[6.111537] (-) TimerEvent: {}
+[6.211918] (-) TimerEvent: {}
+[6.312269] (-) TimerEvent: {}
+[6.412632] (-) TimerEvent: {}
+[6.512983] (-) TimerEvent: {}
+[6.613372] (-) TimerEvent: {}
+[6.713759] (-) TimerEvent: {}
+[6.814122] (-) TimerEvent: {}
+[6.914515] (-) TimerEvent: {}
+[7.014879] (-) TimerEvent: {}
+[7.115274] (-) TimerEvent: {}
+[7.215660] (-) TimerEvent: {}
+[7.316029] (-) TimerEvent: {}
+[7.416410] (-) TimerEvent: {}
+[7.516783] (-) TimerEvent: {}
+[7.617153] (-) TimerEvent: {}
+[7.717543] (-) TimerEvent: {}
+[7.817900] (-) TimerEvent: {}
+[7.918254] (-) TimerEvent: {}
+[8.018617] (-) TimerEvent: {}
+[8.118952] (-) TimerEvent: {}
+[8.219316] (-) TimerEvent: {}
+[8.319664] (-) TimerEvent: {}
+[8.420006] (-) TimerEvent: {}
+[8.520393] (-) TimerEvent: {}
+[8.620759] (-) TimerEvent: {}
+[8.721114] (-) TimerEvent: {}
+[8.821483] (-) TimerEvent: {}
+[8.921864] (-) TimerEvent: {}
+[9.022271] (-) TimerEvent: {}
+[9.122646] (-) TimerEvent: {}
+[9.223026] (-) TimerEvent: {}
+[9.323426] (-) TimerEvent: {}
+[9.424297] (-) TimerEvent: {}
+[9.524660] (-) TimerEvent: {}
+[9.625052] (-) TimerEvent: {}
+[9.725400] (-) TimerEvent: {}
+[9.825767] (-) TimerEvent: {}
+[9.926086] (-) TimerEvent: {}
+[10.026466] (-) TimerEvent: {}
+[10.126829] (-) TimerEvent: {}
+[10.227198] (-) TimerEvent: {}
+[10.327537] (-) TimerEvent: {}
+[10.427877] (-) TimerEvent: {}
+[10.528249] (-) TimerEvent: {}
+[10.628637] (-) TimerEvent: {}
+[10.649556] (simple_demo_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[10.728755] (-) TimerEvent: {}
+[10.829085] (-) TimerEvent: {}
+[10.929424] (-) TimerEvent: {}
+[10.978588] (simple_demo_cpp) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[11.029557] (-) TimerEvent: {}
+[11.129941] (-) TimerEvent: {}
+[11.230321] (-) TimerEvent: {}
+[11.330666] (-) TimerEvent: {}
+[11.431022] (-) TimerEvent: {}
+[11.531388] (-) TimerEvent: {}
+[11.631737] (-) TimerEvent: {}
+[11.732087] (-) TimerEvent: {}
+[11.832457] (-) TimerEvent: {}
+[11.932813] (-) TimerEvent: {}
+[12.033167] (-) TimerEvent: {}
+[12.133513] (-) TimerEvent: {}
+[12.233853] (-) TimerEvent: {}
+[12.334255] (-) TimerEvent: {}
+[12.434611] (-) TimerEvent: {}
+[12.534963] (-) TimerEvent: {}
+[12.635327] (-) TimerEvent: {}
+[12.735661] (-) TimerEvent: {}
+[12.835999] (-) TimerEvent: {}
+[12.936236] (-) TimerEvent: {}
+[13.036561] (-) TimerEvent: {}
+[13.136882] (-) TimerEvent: {}
+[13.237214] (-) TimerEvent: {}
+[13.337537] (-) TimerEvent: {}
+[13.437858] (-) TimerEvent: {}
+[13.538178] (-) TimerEvent: {}
+[13.638498] (-) TimerEvent: {}
+[13.738812] (-) TimerEvent: {}
+[13.839115] (-) TimerEvent: {}
+[13.939396] (-) TimerEvent: {}
+[14.039698] (-) TimerEvent: {}
+[14.140013] (-) TimerEvent: {}
+[14.240292] (-) TimerEvent: {}
+[14.340630] (-) TimerEvent: {}
+[14.440940] (-) TimerEvent: {}
+[14.541284] (-) TimerEvent: {}
+[14.641599] (-) TimerEvent: {}
+[14.741910] (-) TimerEvent: {}
+[14.842253] (-) TimerEvent: {}
+[14.942543] (-) TimerEvent: {}
+[15.042876] (-) TimerEvent: {}
+[15.143215] (-) TimerEvent: {}
+[15.243549] (-) TimerEvent: {}
+[15.343868] (-) TimerEvent: {}
+[15.356129] (simple_demo_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[15.444012] (-) TimerEvent: {}
+[15.544295] (-) TimerEvent: {}
+[15.644666] (-) TimerEvent: {}
+[15.744963] (-) TimerEvent: {}
+[15.824828] (simple_demo_cpp) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[15.845090] (-) TimerEvent: {}
+[15.847604] (simple_demo_cpp) CommandEnded: {'returncode': 0}
+[15.849362] (simple_demo_cpp) JobProgress: {'identifier': 'simple_demo_cpp', 'progress': 'install'}
+[15.867779] (simple_demo_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fazal/ros2_ws/build/simple_demo_cpp'], 'cwd': '/home/fazal/ros2_ws/build/simple_demo_cpp', 'env': OrderedDict({'JJ_PAGER': 'cat', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'fazal', 'ANTIGRAVITY_SOURCE_METADATA': '{"tool":{"conversationId":"beacf5c3-de9d-4a14-8416-cea76e1b825d","stepIndex":60,"toolCall":{"id":"call_213397","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cd /home/fazal/ros2_ws \\\\u0026\\\\u0026 rm -rf build install log \\\\u0026\\\\u0026 colcon build\\",\\"WaitMsBeforeAsync\\":10000,\\"toolSummary\\":\\"Build ROS2 workspace with colcon\\"}","thinkingSignature":"Eq0CCqoCAWkUfROKBj0Rtw35Tt/MscpDlRQz7yoXzFkXS3XVDTyCuKz7Ks9/64ptWdagsrj/KOKc9zJ0NFuxtzb7wE+/PFRpFBO4bDKSP+XKoArhoO2Br0F6lsb5y/nGeRiK3yn8aoenPkiVf+9D5Yxpg/hAJYo/ianjRlNFHD4su2Os9OuCSQXjnmViwNsThOjXYvs0TcPO8YPW2NAYV/zUHXTjnebCVWE7jNyPeRr/6unSGNCxBoPWk77yHewbrbdJ1NOLRsiS9D4FQPK4OwWhnAqDeqnGZbu0lkdJQVBOYbS2XLKYwYyuj8VRzl0YpKzvHIiW7fnEyjXOetasbKjoi9RJwJ6mi8J0S6rw2ByvE8P3hY12KNVmoD2ENnLX8opsA6er/s5n0HV3ilBbPQ=="}}}', 'XDG_SEAT': 'seat0', 'GIT_EDITOR': 'false', 'SSH_AGENT_PID': '2031', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'ANTIGRAVITY_AGENTAPI_EXE': '/home/fazal/.local/bin/agy.1792502557268324874.old', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/fazal', 'OLDPWD': '/home/fazal', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'cat', 'LC_MONETARY': 'id_ID.UTF-8', 'JJ_EDITOR': 'false', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fazal', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'dumb', 'XDG_SESSION_ID': 'c2', 'ANTIGRAVITY_APP_DATA_DIR': '/home/fazal/.gemini/antigravity-cli', 'ANTIGRAVITY_LS_VERSION': 'cli-1.4.2', 'PATH': '/home/fazal/.gemini/antigravity-cli/bin:/home/fazal/.local/bin:/opt/ros/jazzy/bin:/home/fazal/.local/bin:/home/fazal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ThinkPad-X13-Yoga:@/tmp/.ICE-unix/1768,unix/ThinkPad-X13-Yoga:/tmp/.ICE-unix/1768', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9f92f2de_bdb8_4bb6_9740_f5c4682c32f1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'ANTIGRAVITY_CONVERSATION_ID': 'beacf5c3-de9d-4a14-8416-cea76e1b825d', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/fazal/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/tmp/ssh-fks7x0uzuNaX/agent.2030', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fazal', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ANTIGRAVITY_PROJECT_ID': 'default-cli-project', 'SHELL': '/bin/bash', 'ANTIGRAVITY_LS_ADDRESS': 'localhost:40205', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'XDG_VTNR': '7', 'ANTIGRAVITY_TRAJECTORY_ID': '0847c3eb-eb93-4a0c-9840-b6ecb4d928fc', 'PWD': '/home/fazal/ros2_ws/build/simple_demo_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/fazal/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'HGEDITOR': 'false', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'ANTIGRAVITY_CSRF_TOKEN': '061423f0-8e02-4820-8c6f-2edfb8d38dfe', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[15.883436] (simple_demo_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.884047] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/lib/simple_demo_cpp/talker\n'}
+[15.890253] (simple_demo_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/simple_demo_cpp/lib/simple_demo_cpp/talker" to ""\n'}
+[15.890714] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/lib/simple_demo_cpp/listener\n'}
+[15.910223] (simple_demo_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/simple_demo_cpp/lib/simple_demo_cpp/listener" to ""\n'}
+[15.910730] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/ament_index/resource_index/package_run_dependencies/simple_demo_cpp\n'}
+[15.911297] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/ament_index/resource_index/parent_prefix_path/simple_demo_cpp\n'}
+[15.911877] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/environment/ament_prefix_path.sh\n'}
+[15.912373] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/environment/ament_prefix_path.dsv\n'}
+[15.912869] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/environment/path.sh\n'}
+[15.913348] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/environment/path.dsv\n'}
+[15.913762] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.bash\n'}
+[15.914323] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.sh\n'}
+[15.914844] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.zsh\n'}
+[15.915325] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.dsv\n'}
+[15.915823] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/package.dsv\n'}
+[15.916449] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/ament_index/resource_index/packages/simple_demo_cpp\n'}
+[15.916999] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/cmake/simple_demo_cppConfig.cmake\n'}
+[15.917429] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/cmake/simple_demo_cppConfig-version.cmake\n'}
+[15.917904] (simple_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/package.xml\n'}
+[15.921178] (simple_demo_cpp) CommandEnded: {'returncode': 0}
+[15.945229] (-) TimerEvent: {}
+[15.956464] (simple_demo_cpp) JobEnded: {'identifier': 'simple_demo_cpp', 'rc': 0}
+[15.958639] (-) EventReactorShutdown: {}

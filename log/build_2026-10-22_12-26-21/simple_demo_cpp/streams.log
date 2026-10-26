@@ -1,0 +1,9 @@
+[0.029s] Invoking command in '/home/fazal/ros2_ws/build/simple_demo_cpp': /usr/bin/cmake --build /home/fazal/ros2_ws/build/simple_demo_cpp -- -j8 -l8
+[0.106s] [31mCMake Error at CMakeLists.txt:44:
+[0.106s]   Parse error.  Expected a newline, got identifier with text
+[0.107s]   "ament_target_dependencies".
+[0.107s] 
+[0.107s] [0m
+[0.108s] -- Configuring incomplete, errors occurred!
+[0.111s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.114s] Invoked command in '/home/fazal/ros2_ws/build/simple_demo_cpp' returned '2': /usr/bin/cmake --build /home/fazal/ros2_ws/build/simple_demo_cpp -- -j8 -l8

@@ -1,0 +1,36 @@
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:37:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   25 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"[m[Kvelx: %.2f, vely:
+      |                                     [01;35m[K^[m[K
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:26:23:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   26 |     ￹%.2f, angvel: %.2f[01;35m[K"[m[K, msg->velx, msg->vely, msg->angvel);
+      |                       [01;35m[K^[m[K
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:38:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   38 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   25 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "velx: %.2f, vely:
+      |                [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:8:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    8 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:[m[K In constructor ‘[01m[KListener::[01;32m[KListener[m[K()[m[K’:
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:12:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_controller[m[K’ was not declared in this scope
+   12 |       [01;31m[Ksub_controller[m[K = this->create_subscription<controller_msgs::msg::Controller>("controller", 10,std::bind(&Listener::controllerCallback, this, std::placeholders::_1)
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:[m[K In member function ‘[01m[Kvoid Listener::[01;32m[KcontrollerCallback[m[K(controller_msgs::msg::Controller_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   25 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "velx: %.2f, vely:
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   25 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "velx: %.2f, vely:
+      |                [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:20:3:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   20 |   [01;36m[K{[m[K
+      |   [01;36m[K^[m[K
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:[m[K At global scope:
+[01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   25 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "velx: %.2f, vely:
+      |                [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/controller_subscriber.dir/build.make:76: CMakeFiles/controller_subscriber.dir/src/controller_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

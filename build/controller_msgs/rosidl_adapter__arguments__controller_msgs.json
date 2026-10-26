@@ -1,0 +1,6 @@
+{
+  "package_name": "controller_msgs",
+  "non_idl_tuples": [
+    "/home/fazal/ros2_ws/src/simple_demo_cpp/include/msg:msg/Controller.msg"
+  ]
+}

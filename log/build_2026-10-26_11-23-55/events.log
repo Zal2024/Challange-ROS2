@@ -1,0 +1,285 @@
+[0.000000] (-) TimerEvent: {}
+[0.000440] (controller_msgs) JobQueued: {'identifier': 'controller_msgs', 'dependencies': OrderedDict()}
+[0.000538] (controller_package) JobQueued: {'identifier': 'controller_package', 'dependencies': OrderedDict({'controller_msgs': '/home/fazal/ros2_ws/install/controller_msgs'})}
+[0.000598] (controller_msgs) JobStarted: {'identifier': 'controller_msgs'}
+[0.018040] (controller_msgs) JobProgress: {'identifier': 'controller_msgs', 'progress': 'cmake'}
+[0.020462] (controller_msgs) JobProgress: {'identifier': 'controller_msgs', 'progress': 'build'}
+[0.021051] (controller_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fazal/ros2_ws/build/controller_msgs', '--', '-j8', '-l8'], 'cwd': '/home/fazal/ros2_ws/build/controller_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'fazal', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2002', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fazal/ros2_ws/install/controller_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/fazal', 'OLDPWD': '/home/fazal/ros2_ws', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/fazal/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fazal', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/home/fazal/.local/bin:/opt/ros/jazzy/bin:/home/fazal/.local/bin:/home/fazal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ThinkPad-X13-Yoga:@/tmp/.ICE-unix/1714,unix/ThinkPad-X13-Yoga:/tmp/.ICE-unix/1714', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/263f7399_3d03_4378_a9a4_03e44e4fa746', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/fazal/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AUTH_SOCK': '/tmp/ssh-CWio0MLkWfK3/agent.2001', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fazal', 'AMENT_PREFIX_PATH': '/home/fazal/ros2_ws/install/controller_package:/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/fazal/ros2_ws/build/controller_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/fazal/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/fazal/ros2_ws/install/controller_package:/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.095465] (controller_msgs) StdoutLine: {'line': b'[  2%] Built target controller_msgs__rs\n'}
+[0.096180] (controller_msgs) StdoutLine: {'line': b'[  5%] Built target controller_msgs__rosidl_generator_type_description\n'}
+[0.098962] (-) TimerEvent: {}
+[0.110724] (controller_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_controller_msgs\n'}
+[0.131291] (controller_msgs) StdoutLine: {'line': b'[  8%] Built target controller_msgs__cpp\n'}
+[0.133300] (controller_msgs) StdoutLine: {'line': b'[ 22%] Built target controller_msgs__rosidl_generator_c\n'}
+[0.178274] (controller_msgs) StdoutLine: {'line': b'[ 31%] Built target controller_msgs__rosidl_typesupport_c\n'}
+[0.188260] (controller_msgs) StdoutLine: {'line': b'[ 40%] Built target controller_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.189193] (controller_msgs) StdoutLine: {'line': b'[ 48%] Built target controller_msgs__rosidl_typesupport_introspection_c\n'}
+[0.190260] (controller_msgs) StdoutLine: {'line': b'[ 57%] Built target controller_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.191257] (controller_msgs) StdoutLine: {'line': b'[ 65%] Built target controller_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.197020] (controller_msgs) StdoutLine: {'line': b'[ 74%] Built target controller_msgs__rosidl_typesupport_cpp\n'}
+[0.199046] (-) TimerEvent: {}
+[0.226138] (controller_msgs) StdoutLine: {'line': b'[ 74%] Built target controller_msgs\n'}
+[0.252723] (controller_msgs) StdoutLine: {'line': b'[ 77%] Built target controller_msgs__py\n'}
+[0.297118] (controller_msgs) StdoutLine: {'line': b'[ 82%] Built target controller_msgs__rosidl_generator_py\n'}
+[0.299166] (-) TimerEvent: {}
+[0.343976] (controller_msgs) StdoutLine: {'line': b'[ 88%] Built target controller_msgs_s__rosidl_typesupport_c\n'}
+[0.350500] (controller_msgs) StdoutLine: {'line': b'[ 94%] Built target controller_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[0.350956] (controller_msgs) StdoutLine: {'line': b'[100%] Built target controller_msgs_s__rosidl_typesupport_introspection_c\n'}
+[0.399231] (-) TimerEvent: {}
+[0.499514] (-) TimerEvent: {}
+[0.599881] (-) TimerEvent: {}
+[0.614714] (controller_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.660140] (controller_msgs) StdoutLine: {'line': b'writing controller_msgs.egg-info/PKG-INFO\n'}
+[0.660806] (controller_msgs) StdoutLine: {'line': b'writing dependency_links to controller_msgs.egg-info/dependency_links.txt\n'}
+[0.661276] (controller_msgs) StdoutLine: {'line': b'writing top-level names to controller_msgs.egg-info/top_level.txt\n'}
+[0.700017] (-) TimerEvent: {}
+[0.786384] (controller_msgs) StdoutLine: {'line': b"reading manifest file 'controller_msgs.egg-info/SOURCES.txt'\n"}
+[0.787649] (controller_msgs) StdoutLine: {'line': b"writing manifest file 'controller_msgs.egg-info/SOURCES.txt'\n"}
+[0.800178] (-) TimerEvent: {}
+[0.838939] (controller_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_controller_msgs_egg\n'}
+[0.855427] (controller_msgs) CommandEnded: {'returncode': 0}
+[0.856481] (controller_msgs) JobProgress: {'identifier': 'controller_msgs', 'progress': 'install'}
+[0.869514] (controller_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fazal/ros2_ws/build/controller_msgs'], 'cwd': '/home/fazal/ros2_ws/build/controller_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'fazal', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2002', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fazal/ros2_ws/install/controller_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/fazal', 'OLDPWD': '/home/fazal/ros2_ws', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/fazal/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fazal', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/home/fazal/.local/bin:/opt/ros/jazzy/bin:/home/fazal/.local/bin:/home/fazal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ThinkPad-X13-Yoga:@/tmp/.ICE-unix/1714,unix/ThinkPad-X13-Yoga:/tmp/.ICE-unix/1714', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/263f7399_3d03_4378_a9a4_03e44e4fa746', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/fazal/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AUTH_SOCK': '/tmp/ssh-CWio0MLkWfK3/agent.2001', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fazal', 'AMENT_PREFIX_PATH': '/home/fazal/ros2_ws/install/controller_package:/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/fazal/ros2_ws/build/controller_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/fazal/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/fazal/ros2_ws/install/controller_package:/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.881154] (controller_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.881621] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/ament_index/resource_index/rosidl_interfaces/controller_msgs\n'}
+[0.882023] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/msg/Controller.json\n'}
+[0.882300] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs\n'}
+[0.882552] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg\n'}
+[0.882808] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.883026] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/controller.h\n'}
+[0.883315] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail\n'}
+[0.883556] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__functions.h\n'}
+[0.883784] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__description.c\n'}
+[0.884010] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__type_support.h\n'}
+[0.884244] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__struct.h\n'}
+[0.884489] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__functions.c\n'}
+[0.884758] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__type_support.c\n'}
+[0.884991] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/library_path.sh\n'}
+[0.885242] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/library_path.dsv\n'}
+[0.885472] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_generator_c.so\n'}
+[0.885711] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs\n'}
+[0.885942] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg\n'}
+[0.886228] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.886459] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail\n'}
+[0.886707] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__rosidl_typesupport_fastrtps_c.h\n'}
+[0.886957] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.887221] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs\n'}
+[0.887496] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg\n'}
+[0.887718] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.887975] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail\n'}
+[0.888254] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__type_support.c\n'}
+[0.888480] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__rosidl_typesupport_introspection_c.h\n'}
+[0.888697] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.888918] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_c.so\n'}
+[0.889169] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs\n'}
+[0.889383] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg\n'}
+[0.889688] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.889928] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/controller.hpp\n'}
+[0.890122] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail\n'}
+[0.890381] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__struct.hpp\n'}
+[0.890642] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__traits.hpp\n'}
+[0.890860] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__builder.hpp\n'}
+[0.891052] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__type_support.hpp\n'}
+[0.891258] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs\n'}
+[0.891495] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg\n'}
+[0.891723] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail\n'}
+[0.891949] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/dds_fastrtps\n'}
+[0.892171] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.892359] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.892557] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.892764] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs\n'}
+[0.892996] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg\n'}
+[0.893234] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail\n'}
+[0.893457] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.893681] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__type_support.cpp\n'}
+[0.893907] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.894129] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_cpp.so\n'}
+[0.894369] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/pythonpath.sh\n'}
+[0.894582] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/pythonpath.dsv\n'}
+[0.894802] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs-0.0.0-py3.12.egg-info\n'}
+[0.895059] (controller_msgs) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[0.895309] (controller_msgs) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[0.895533] (controller_msgs) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[0.895720] (controller_msgs) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[0.895902] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs\n'}
+[0.896082] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/__init__.py\n'}
+[0.896285] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/msg\n'}
+[0.896485] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/msg/_controller.py\n'}
+[0.896668] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/msg/__init__.py\n'}
+[0.896849] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/msg/_controller_s.c\n'}
+[0.897031] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.897231] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/_controller_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.897415] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.897596] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.897780] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_c.so\n'}
+[0.897974] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[0.900228] (-) TimerEvent: {}
+[0.952381] (controller_msgs) StdoutLine: {'line': b"Listing '/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs'...\n"}
+[0.952724] (controller_msgs) StdoutLine: {'line': b"Listing '/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/msg'...\n"}
+[0.962011] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.962399] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[0.962746] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_c.so\n'}
+[0.963123] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_generator_py.so\n'}
+[0.963463] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust\n'}
+[0.963894] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/src\n'}
+[0.964199] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/src/msg\n'}
+[0.964489] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/src/msg/rmw.rs\n'}
+[0.964736] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/src/msg.rs\n'}
+[0.964981] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/src/lib.rs\n'}
+[0.965199] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/Cargo.toml\n'}
+[0.965437] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/build.rs\n'}
+[0.965688] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/msg/Controller.idl\n'}
+[0.965931] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/msg/Controller.msg\n'}
+[0.966206] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/ament_index/resource_index/package_run_dependencies/controller_msgs\n'}
+[0.966447] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/ament_index/resource_index/parent_prefix_path/controller_msgs\n'}
+[0.966682] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/ament_prefix_path.sh\n'}
+[0.966937] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/ament_prefix_path.dsv\n'}
+[0.967211] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/path.sh\n'}
+[0.967469] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/path.dsv\n'}
+[0.967734] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/local_setup.bash\n'}
+[0.968005] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/local_setup.sh\n'}
+[0.968314] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/local_setup.zsh\n'}
+[0.968584] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/local_setup.dsv\n'}
+[0.968786] (controller_msgs) StdoutLine: {'line': b'-- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/package.dsv\n'}
+[0.968991] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/ament_index/resource_index/packages/controller_msgs\n'}
+[0.969196] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_generator_cExport.cmake\n'}
+[0.969403] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.969606] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.969807] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.970027] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.970242] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.970444] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.970652] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.970914] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.971382] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.972191] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.972654] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.973136] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.974303] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.975299] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.975813] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.976174] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.976727] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.977233] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.977667] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.978125] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.979051] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.979616] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.980015] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.980469] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[0.980811] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgsConfig.cmake\n'}
+[0.981078] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgsConfig-version.cmake\n'}
+[0.981359] (controller_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/package.xml\n'}
+[0.981631] (controller_msgs) CommandEnded: {'returncode': 0}
+[1.000552] (-) TimerEvent: {}
+[1.009395] (controller_msgs) JobEnded: {'identifier': 'controller_msgs', 'rc': 0}
+[1.010746] (controller_package) JobStarted: {'identifier': 'controller_package'}
+[1.021407] (controller_package) JobProgress: {'identifier': 'controller_package', 'progress': 'cmake'}
+[1.022646] (controller_package) JobProgress: {'identifier': 'controller_package', 'progress': 'build'}
+[1.024069] (controller_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fazal/ros2_ws/build/controller_package', '--', '-j8', '-l8'], 'cwd': '/home/fazal/ros2_ws/build/controller_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'fazal', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2002', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fazal/ros2_ws/install/controller_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/fazal', 'OLDPWD': '/home/fazal/ros2_ws', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/fazal/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fazal', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/home/fazal/.local/bin:/opt/ros/jazzy/bin:/home/fazal/.local/bin:/home/fazal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ThinkPad-X13-Yoga:@/tmp/.ICE-unix/1714,unix/ThinkPad-X13-Yoga:/tmp/.ICE-unix/1714', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/263f7399_3d03_4378_a9a4_03e44e4fa746', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/fazal/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AUTH_SOCK': '/tmp/ssh-CWio0MLkWfK3/agent.2001', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fazal', 'AMENT_PREFIX_PATH': '/home/fazal/ros2_ws/install/controller_package:/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/fazal/ros2_ws/build/controller_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/fazal/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/controller_package:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.100696] (-) TimerEvent: {}
+[1.126298] (controller_package) StdoutLine: {'line': b'[ 50%] Built target controller_publisher\n'}
+[1.132439] (controller_package) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/controller_subscriber.dir/src/controller_subscriber.cpp.o\x1b[0m\n'}
+[1.200828] (-) TimerEvent: {}
+[1.301218] (-) TimerEvent: {}
+[1.401582] (-) TimerEvent: {}
+[1.459740] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing terminating " character\n'}
+[1.460076] (controller_package) StderrLine: {'line': b'   25 |     RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\x1b[m\x1b[Kvelx: %.2f, vely:\n'}
+[1.460308] (controller_package) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.460686] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:26:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing terminating " character\n'}
+[1.461030] (controller_package) StderrLine: {'line': b'   26 |     \xef\xbf\xb9%.2f, angvel: %.2f\x1b[01;35m\x1b[K"\x1b[m\x1b[K, msg->velx, msg->vely, msg->angvel);\n'}
+[1.461333] (controller_package) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.461606] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:38:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated argument list invoking macro "RCLCPP_INFO"\n'}
+[1.461916] (controller_package) StderrLine: {'line': b'   38 | }\n'}
+[1.462200] (controller_package) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.501699] (-) TimerEvent: {}
+[1.602087] (-) TimerEvent: {}
+[1.702485] (-) TimerEvent: {}
+[1.802879] (-) TimerEvent: {}
+[1.903299] (-) TimerEvent: {}
+[2.003651] (-) TimerEvent: {}
+[2.104008] (-) TimerEvent: {}
+[2.204370] (-) TimerEvent: {}
+[2.304749] (-) TimerEvent: {}
+[2.405126] (-) TimerEvent: {}
+[2.505512] (-) TimerEvent: {}
+[2.605892] (-) TimerEvent: {}
+[2.706270] (-) TimerEvent: {}
+[2.806648] (-) TimerEvent: {}
+[2.907062] (-) TimerEvent: {}
+[3.007449] (-) TimerEvent: {}
+[3.107871] (-) TimerEvent: {}
+[3.208269] (-) TimerEvent: {}
+[3.308715] (-) TimerEvent: {}
+[3.409096] (-) TimerEvent: {}
+[3.509526] (-) TimerEvent: {}
+[3.609975] (-) TimerEvent: {}
+[3.710513] (-) TimerEvent: {}
+[3.810967] (-) TimerEvent: {}
+[3.911365] (-) TimerEvent: {}
+[4.011744] (-) TimerEvent: {}
+[4.112093] (-) TimerEvent: {}
+[4.212436] (-) TimerEvent: {}
+[4.312791] (-) TimerEvent: {}
+[4.413163] (-) TimerEvent: {}
+[4.500793] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[4.501109] (controller_package) StderrLine: {'line': b'   25 |     RCLCPP_INFO\x1b[01;31m\x1b[K(\x1b[m\x1b[Kthis->get_logger(), "velx: %.2f, vely:\n'}
+[4.501306] (controller_package) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.501471] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:8:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.501634] (controller_package) StderrLine: {'line': b'    8 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[4.501792] (controller_package) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.513302] (-) TimerEvent: {}
+[4.517674] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KListener::\x1b[01;32m\x1b[KListener\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.517963] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:12:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksub_controller\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.518141] (controller_package) StderrLine: {'line': b'   12 |       \x1b[01;31m\x1b[Ksub_controller\x1b[m\x1b[K = this->create_subscription<controller_msgs::msg::Controller>("controller", 10,std::bind(&Listener::controllerCallback, this, std::placeholders::_1)\n'}
+[4.518349] (controller_package) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.577913] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Listener::\x1b[01;32m\x1b[KcontrollerCallback\x1b[m\x1b[K(controller_msgs::msg::Controller_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.578269] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.578454] (controller_package) StderrLine: {'line': b'   25 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "velx: %.2f, vely:\n'}
+[4.578624] (controller_package) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.578808] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[4.578974] (controller_package) StderrLine: {'line': b'   25 |     RCLCPP_INFO\x1b[01;31m\x1b[K(\x1b[m\x1b[Kthis->get_logger(), "velx: %.2f, vely:\n'}
+[4.579138] (controller_package) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.579310] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:20:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.579476] (controller_package) StderrLine: {'line': b'   20 |   \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[4.579639] (controller_package) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.579800] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.579990] (controller_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[4.580163] (controller_package) StderrLine: {'line': b'   25 |     RCLCPP_INFO\x1b[01;31m\x1b[K(\x1b[m\x1b[Kthis->get_logger(), "velx: %.2f, vely:\n'}
+[4.580328] (controller_package) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.613438] (-) TimerEvent: {}
+[4.713775] (-) TimerEvent: {}
+[4.814103] (-) TimerEvent: {}
+[4.914461] (-) TimerEvent: {}
+[5.014792] (-) TimerEvent: {}
+[5.115124] (-) TimerEvent: {}
+[5.215472] (-) TimerEvent: {}
+[5.315815] (-) TimerEvent: {}
+[5.416178] (-) TimerEvent: {}
+[5.516497] (-) TimerEvent: {}
+[5.616811] (-) TimerEvent: {}
+[5.717132] (-) TimerEvent: {}
+[5.817478] (-) TimerEvent: {}
+[5.917798] (-) TimerEvent: {}
+[6.018110] (-) TimerEvent: {}
+[6.118410] (-) TimerEvent: {}
+[6.218754] (-) TimerEvent: {}
+[6.319103] (-) TimerEvent: {}
+[6.419452] (-) TimerEvent: {}
+[6.519788] (-) TimerEvent: {}
+[6.620115] (-) TimerEvent: {}
+[6.720478] (-) TimerEvent: {}
+[6.820857] (-) TimerEvent: {}
+[6.921242] (-) TimerEvent: {}
+[7.021624] (-) TimerEvent: {}
+[7.122040] (-) TimerEvent: {}
+[7.222389] (-) TimerEvent: {}
+[7.322755] (-) TimerEvent: {}
+[7.423235] (-) TimerEvent: {}
+[7.523795] (-) TimerEvent: {}
+[7.585418] (controller_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/controller_subscriber.dir/build.make:76: CMakeFiles/controller_subscriber.dir/src/controller_subscriber.cpp.o] Error 1\n'}
+[7.585846] (controller_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller_subscriber.dir/all] Error 2\n'}
+[7.586105] (controller_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.588400] (controller_package) CommandEnded: {'returncode': 2}
+[7.599826] (controller_package) JobEnded: {'identifier': 'controller_package', 'rc': 2}
+[7.610877] (-) EventReactorShutdown: {}

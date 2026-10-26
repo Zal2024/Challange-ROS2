@@ -1,0 +1,28 @@
+[0.017s] Invoking command in '/home/fazal/ros2_ws/build/controller_package': /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package
+[0.036s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.406s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.454s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.471s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.493s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.634s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.636s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.738s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.871s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.871s]   By not providing "Findmsg.cmake" in CMAKE_MODULE_PATH this project has
+[0.871s]   asked CMake to find a package configuration file provided by "msg", but
+[0.872s]   CMake did not find one.
+[0.872s] 
+[0.872s]   Could not find a package configuration file provided by "msg" with any of
+[0.872s]   the following names:
+[0.872s] 
+[0.872s]     msgConfig.cmake
+[0.873s]     msg-config.cmake
+[0.873s] 
+[0.873s]   Add the installation prefix of "msg" to CMAKE_PREFIX_PATH or set "msg_DIR"
+[0.873s]   to a directory containing one of the above files.  If "msg" provides a
+[0.873s]   separate development package or SDK, be sure it has been installed.
+[0.873s] 
+[0.874s] [0m
+[0.874s] -- Configuring incomplete, errors occurred!
+[0.880s] Invoked command in '/home/fazal/ros2_ws/build/controller_package' returned '1': /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package

@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.000117] (msg) JobQueued: {'identifier': 'msg', 'dependencies': OrderedDict()}
+[0.000184] (controller_package) JobQueued: {'identifier': 'controller_package', 'dependencies': OrderedDict({'msg': '/home/fazal/ros2_ws/install/msg'})}
+[0.000215] (msg) JobStarted: {'identifier': 'msg'}
+[0.023342] (msg) JobProgress: {'identifier': 'msg', 'progress': 'cmake'}
+[0.023848] (msg) Command: {'cmd': ['/usr/bin/cmake', '/home/fazal/ros2_ws/src/simple_demo_cpp/include/msg', '-DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/msg'], 'cwd': '/home/fazal/ros2_ws/build/msg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'fazal', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2007', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/fazal', 'OLDPWD': '/home/fazal', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/fazal/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fazal', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/home/fazal/.local/bin:/opt/ros/jazzy/bin:/home/fazal/.local/bin:/home/fazal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ThinkPad-X13-Yoga:@/tmp/.ICE-unix/1747,unix/ThinkPad-X13-Yoga:/tmp/.ICE-unix/1747', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fd0e303c_9a68_4e16_a5b4_9c65c9fab5b0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/fazal/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.234', 'SSH_AUTH_SOCK': '/tmp/ssh-oGi3YieOIv4g/agent.2006', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fazal', 'AMENT_PREFIX_PATH': '/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/fazal/ros2_ws/build/msg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/fazal/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099522] (-) TimerEvent: {}
+[0.185509] (msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199611] (-) TimerEvent: {}
+[0.286893] (msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.299732] (-) TimerEvent: {}
+[0.305621] (msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399823] (-) TimerEvent: {}
+[0.404492] (msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.417072] (msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.417455] (msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.418082] (msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.427312] (msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499938] (-) TimerEvent: {}
+[0.522276] (msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.534516] (msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.534818] (msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.535371] (msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.541274] (msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.600077] (-) TimerEvent: {}
+[0.700345] (-) TimerEvent: {}
+[0.744234] (msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.800434] (-) TimerEvent: {}
+[0.882311] (msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.900562] (-) TimerEvent: {}
+[1.000859] (-) TimerEvent: {}
+[1.008922] (msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.076517] (msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.084663] (msg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.101012] (-) TimerEvent: {}
+[1.201318] (-) TimerEvent: {}
+[1.208779] (msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.212997] (msg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.299492] (msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.301394] (-) TimerEvent: {}
+[1.323364] (msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.348403] (msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.401539] (-) TimerEvent: {}
+[1.452938] (msg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.501626] (-) TimerEvent: {}
+[1.601897] (-) TimerEvent: {}
+[1.702169] (-) TimerEvent: {}
+[1.760088] (msg) StderrLine: {'line': b"Error parsing '/home/fazal/ros2_ws/src/simple_demo_cpp/include/msg/package.xml':\n"}
+[1.802294] (-) TimerEvent: {}
+[1.902504] (-) TimerEvent: {}
+[2.002840] (-) TimerEvent: {}
+[2.103542] (-) TimerEvent: {}
+[2.204153] (-) TimerEvent: {}
+[2.304781] (-) TimerEvent: {}
+[2.405041] (-) TimerEvent: {}
+[2.505340] (-) TimerEvent: {}
+[2.605634] (-) TimerEvent: {}
+[2.705977] (-) TimerEvent: {}
+[2.806360] (-) TimerEvent: {}
+[2.906686] (-) TimerEvent: {}
+[3.007022] (-) TimerEvent: {}
+[3.107476] (-) TimerEvent: {}
+[3.207998] (-) TimerEvent: {}
+[3.308543] (-) TimerEvent: {}
+[3.409066] (-) TimerEvent: {}
+[3.509573] (-) TimerEvent: {}
+[3.610040] (-) TimerEvent: {}
+[3.710443] (-) TimerEvent: {}
+[3.810886] (-) TimerEvent: {}
+[3.911313] (-) TimerEvent: {}
+[4.011660] (-) TimerEvent: {}
+[4.111982] (-) TimerEvent: {}
+[4.212338] (-) TimerEvent: {}
+[4.312773] (-) TimerEvent: {}
+[4.413147] (-) TimerEvent: {}
+[4.513516] (-) TimerEvent: {}
+[4.613885] (-) TimerEvent: {}
+[4.714284] (-) TimerEvent: {}
+[4.814701] (-) TimerEvent: {}
+[4.915087] (-) TimerEvent: {}
+[5.015454] (-) TimerEvent: {}
+[5.115912] (-) TimerEvent: {}
+[5.216324] (-) TimerEvent: {}
+[5.316814] (-) TimerEvent: {}
+[5.417239] (-) TimerEvent: {}
+[5.517635] (-) TimerEvent: {}
+[5.618013] (-) TimerEvent: {}
+[5.718414] (-) TimerEvent: {}
+[5.818818] (-) TimerEvent: {}
+[5.919171] (-) TimerEvent: {}
+[6.019531] (-) TimerEvent: {}
+[6.119927] (-) TimerEvent: {}
+[6.220318] (-) TimerEvent: {}
+[6.287282] (msg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[6.287808] (msg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[6.288043] (msg) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[6.288260] (msg) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^\n'}
+[6.288453] (msg) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/minidom.py", line 1995, in parseString\n'}
+[6.288808] (msg) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[6.289081] (msg) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[6.289288] (msg) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString\n'}
+[6.289575] (msg) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[6.289953] (msg) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[6.290217] (msg) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString\n'}
+[6.290525] (msg) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[6.290732] (msg) StderrLine: {'line': b'xml.parsers.expat.ExpatError: junk after document element: line 30, column 0\n'}
+[6.291024] (msg) StderrLine: {'line': b'\n'}
+[6.291212] (msg) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[6.291396] (msg) StderrLine: {'line': b'\n'}
+[6.291603] (msg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[6.291786] (msg) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[6.291967] (msg) StderrLine: {'line': b'    main()\n'}
+[6.292154] (msg) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[6.292325] (msg) StderrLine: {'line': b'    raise e\n'}
+[6.292504] (msg) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[6.292677] (msg) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[6.292849] (msg) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[6.293034] (msg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[6.293220] (msg) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[6.293391] (msg) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/fazal/ros2_ws/src/simple_demo_cpp/include/msg/package.xml':\n"}
+[6.293567] (msg) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[6.293733] (msg) StderrLine: {'line': b'junk after document element: line 30, column 0\n'}
+[6.320452] (-) TimerEvent: {}
+[6.346189] (msg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[6.346501] (msg) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[6.346792] (msg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[6.347091] (msg) StderrLine: {'line': b'  /home/fazal/ros2_ws/src/simple_demo_cpp/include/msg/package.xml\n'}
+[6.347345] (msg) StderrLine: {'line': b'  /home/fazal/ros2_ws/build/msg/ament_cmake_core/package.cmake) returned\n'}
+[6.347574] (msg) StderrLine: {'line': b'  error code 1\n'}
+[6.347738] (msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.347960] (msg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[6.348119] (msg) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)\n'}
+[6.348272] (msg) StderrLine: {'line': b'  CMakeLists.txt:23 (rosidl_generate_interfaces)\n'}
+[6.348425] (msg) StderrLine: {'line': b'\n'}
+[6.348595] (msg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.348747] (msg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.359038] (msg) CommandEnded: {'returncode': 1}
+[6.359948] (msg) JobEnded: {'identifier': 'msg', 'rc': 1}
+[6.370730] (controller_package) JobSkipped: {'identifier': 'controller_package'}
+[6.370796] (-) EventReactorShutdown: {}

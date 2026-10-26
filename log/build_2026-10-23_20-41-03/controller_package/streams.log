@@ -1,0 +1,8 @@
+[0.014s] Invoking command in '/home/fazal/ros2_ws/build/controller_package': /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package
+[0.024s] [31mCMake Error at CMakeLists.txt:15:
+[0.024s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.024s]   "//find_package".
+[0.025s] 
+[0.025s] [0m
+[0.025s] -- Configuring incomplete, errors occurred!
+[0.027s] Invoked command in '/home/fazal/ros2_ws/build/controller_package' returned '1': /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package

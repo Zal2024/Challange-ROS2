@@ -1,0 +1,229 @@
+[0.023s] Invoking command in '/home/fazal/ros2_ws/build/controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/msg -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_msgs
+[0.062s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.428s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.604s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.610s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.749s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.752s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.882s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.050s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.055s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.796s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.943s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.948s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.188s] -- Found PythonExtra: /usr/bin/python3  
+[5.228s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.384s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.452s] -- Configuring done (5.4s)
+[5.610s] -- Generating done (0.1s)
+[5.654s] -- Build files have been written to: /home/fazal/ros2_ws/build/controller_msgs
+[5.666s] Invoked command in '/home/fazal/ros2_ws/build/controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/msg -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_msgs
+[5.668s] Invoking command in '/home/fazal/ros2_ws/build/controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/fazal/ros2_ws/build/controller_msgs -- -j8 -l8
+[5.734s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.735s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.745s] [  5%] Built target ament_cmake_python_copy_controller_msgs
+[6.072s] [  5%] Built target controller_msgs__rosidl_generator_type_description
+[6.086s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.100s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.109s] [ 11%] Built target controller_msgs__rs
+[6.205s] running egg_info
+[6.244s] creating controller_msgs.egg-info
+[6.245s] writing controller_msgs.egg-info/PKG-INFO
+[6.245s] writing dependency_links to controller_msgs.egg-info/dependency_links.txt
+[6.246s] writing top-level names to controller_msgs.egg-info/top_level.txt
+[6.246s] writing manifest file 'controller_msgs.egg-info/SOURCES.txt'
+[6.363s] reading manifest file 'controller_msgs.egg-info/SOURCES.txt'
+[6.364s] writing manifest file 'controller_msgs.egg-info/SOURCES.txt'
+[6.411s] [ 11%] Built target ament_cmake_python_build_controller_msgs_egg
+[6.460s] [ 11%] Built target controller_msgs__cpp
+[6.506s] [ 20%] [32mBuilding C object CMakeFiles/controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_msgs/msg/detail/controller__type_support.c.o[0m
+[6.506s] [ 20%] [32mBuilding C object CMakeFiles/controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_msgs/msg/detail/controller__description.c.o[0m
+[6.507s] [ 20%] [32mBuilding C object CMakeFiles/controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_msgs/msg/detail/controller__functions.c.o[0m
+[6.624s] [ 22%] [32m[1mLinking C shared library libcontroller_msgs__rosidl_generator_c.so[0m
+[6.699s] [ 22%] Built target controller_msgs__rosidl_generator_c
+[6.729s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.731s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.733s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.734s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.736s] [ 40%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.737s] [ 40%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.207s] [ 42%] [32mBuilding CXX object CMakeFiles/controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_msgs/msg/detail/controller__type_support.cpp.o[0m
+[7.233s] [ 45%] [32mBuilding CXX object CMakeFiles/controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_msgs/msg/controller__type_support.cpp.o[0m
+[7.333s] [ 48%] [32mBuilding CXX object CMakeFiles/controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_msgs/msg/controller__type_support.cpp.o[0m
+[7.358s] [ 51%] [32m[1mLinking CXX shared library libcontroller_msgs__rosidl_typesupport_c.so[0m
+[7.426s] [ 54%] [32mBuilding C object CMakeFiles/controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_msgs/msg/detail/controller__type_support.c.o[0m
+[7.457s] [ 57%] [32mBuilding CXX object CMakeFiles/controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_msgs/msg/detail/dds_fastrtps/controller__type_support.cpp.o[0m
+[7.458s] [ 60%] [32mBuilding CXX object CMakeFiles/controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_msgs/msg/detail/controller__type_support_c.cpp.o[0m
+[7.466s] [ 60%] Built target controller_msgs__rosidl_typesupport_c
+[7.497s] [ 62%] [32m[1mLinking C shared library libcontroller_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.544s] [ 62%] Built target controller_msgs__rosidl_typesupport_introspection_c
+[7.812s] [ 65%] [32m[1mLinking CXX shared library libcontroller_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.874s] [ 65%] Built target controller_msgs__rosidl_typesupport_introspection_cpp
+[7.961s] [ 68%] [32m[1mLinking CXX shared library libcontroller_msgs__rosidl_typesupport_cpp.so[0m
+[8.019s] [ 68%] Built target controller_msgs__rosidl_typesupport_cpp
+[8.212s] [ 71%] [32m[1mLinking CXX shared library libcontroller_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.283s] [ 71%] Built target controller_msgs__rosidl_typesupport_fastrtps_c
+[8.283s] [ 74%] [32m[1mLinking CXX shared library libcontroller_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.349s] [ 74%] Built target controller_msgs__rosidl_typesupport_fastrtps_cpp
+[8.374s] [ 74%] Built target controller_msgs
+[8.399s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.803s] [ 77%] Built target controller_msgs__py
+[8.829s] [ 80%] [32mBuilding C object CMakeFiles/controller_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_msgs/msg/_controller_s.c.o[0m
+[9.056s] [ 82%] [32m[1mLinking C shared library libcontroller_msgs__rosidl_generator_py.so[0m
+[9.110s] [ 82%] Built target controller_msgs__rosidl_generator_py
+[9.136s] [ 91%] [32mBuilding C object CMakeFiles/controller_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/controller_msgs/_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.136s] [ 91%] [32mBuilding C object CMakeFiles/controller_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/controller_msgs/_controller_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.137s] [ 91%] [32mBuilding C object CMakeFiles/controller_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/controller_msgs/_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.290s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/controller_msgs/controller_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[9.295s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/controller_msgs/controller_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.306s] [100%] [32m[1mLinking C shared module rosidl_generator_py/controller_msgs/controller_msgs_s__rosidl_typesupport_c.so[0m
+[9.330s] [100%] Built target controller_msgs_s__rosidl_typesupport_introspection_c
+[9.336s] [100%] Built target controller_msgs_s__rosidl_typesupport_fastrtps_c
+[9.347s] [100%] Built target controller_msgs_s__rosidl_typesupport_c
+[9.362s] Invoked command in '/home/fazal/ros2_ws/build/controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/fazal/ros2_ws/build/controller_msgs -- -j8 -l8
+[9.375s] Invoking command in '/home/fazal/ros2_ws/build/controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/fazal/ros2_ws/build/controller_msgs
+[9.386s] -- Install configuration: ""
+[9.387s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/ament_index/resource_index/rosidl_interfaces/controller_msgs
+[9.387s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/msg/Controller.json
+[9.387s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs
+[9.388s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg
+[9.388s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.388s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/controller.h
+[9.388s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail
+[9.389s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__functions.h
+[9.389s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__description.c
+[9.389s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__type_support.h
+[9.389s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__struct.h
+[9.390s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__functions.c
+[9.390s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__type_support.c
+[9.390s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/library_path.sh
+[9.391s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/library_path.dsv
+[9.391s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_generator_c.so
+[9.392s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_generator_c.so" to ""
+[9.392s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs
+[9.393s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg
+[9.393s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.393s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail
+[9.394s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__rosidl_typesupport_fastrtps_c.h
+[9.394s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_fastrtps_c.so
+[9.394s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.394s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs
+[9.395s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg
+[9.395s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.395s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail
+[9.395s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__type_support.c
+[9.395s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__rosidl_typesupport_introspection_c.h
+[9.396s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_introspection_c.so
+[9.397s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.397s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_c.so
+[9.398s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_c.so" to ""
+[9.398s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs
+[9.398s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg
+[9.398s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.398s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/controller.hpp
+[9.399s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail
+[9.399s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__struct.hpp
+[9.399s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__traits.hpp
+[9.399s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__builder.hpp
+[9.400s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__type_support.hpp
+[9.400s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs
+[9.400s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg
+[9.401s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail
+[9.401s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/dds_fastrtps
+[9.401s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp
+[9.401s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.402s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.402s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.402s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs
+[9.403s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg
+[9.403s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail
+[9.403s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__rosidl_typesupport_introspection_cpp.hpp
+[9.403s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/include/controller_msgs/controller_msgs/msg/detail/controller__type_support.cpp
+[9.403s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_introspection_cpp.so
+[9.404s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.404s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_cpp.so
+[9.405s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_typesupport_cpp.so" to ""
+[9.405s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/pythonpath.sh
+[9.405s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/pythonpath.dsv
+[9.406s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs-0.0.0-py3.12.egg-info
+[9.406s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[9.406s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[9.407s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[9.407s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[9.407s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs
+[9.408s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/__init__.py
+[9.408s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/msg
+[9.408s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/msg/_controller.py
+[9.408s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/msg/__init__.py
+[9.408s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/msg/_controller_s.c
+[9.409s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.409s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/_controller_msgs_s.ep.rosidl_typesupport_c.c
+[9.409s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.410s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_fastrtps_c.so
+[9.410s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_c.so
+[9.410s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_introspection_c.so
+[9.484s] Listing '/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs'...
+[9.484s] Compiling '/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/__init__.py'...
+[9.484s] Listing '/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/msg'...
+[9.485s] Compiling '/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/msg/__init__.py'...
+[9.485s] Compiling '/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/msg/_controller.py'...
+[9.495s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_fastrtps_c.so
+[9.496s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[9.497s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_introspection_c.so
+[9.498s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[9.498s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_c.so
+[9.499s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages/controller_msgs/controller_msgs_s__rosidl_typesupport_c.so" to ""
+[9.499s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_generator_py.so
+[9.500s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_msgs/lib/libcontroller_msgs__rosidl_generator_py.so" to ""
+[9.501s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust
+[9.501s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/src
+[9.501s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/src/msg
+[9.501s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/src/msg/rmw.rs
+[9.502s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/src/msg.rs
+[9.502s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/src/lib.rs
+[9.502s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/Cargo.toml
+[9.503s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/rust/build.rs
+[9.503s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/msg/Controller.idl
+[9.503s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/msg/Controller.msg
+[9.504s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/ament_index/resource_index/package_run_dependencies/controller_msgs
+[9.504s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/ament_index/resource_index/parent_prefix_path/controller_msgs
+[9.505s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/ament_prefix_path.sh
+[9.505s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/ament_prefix_path.dsv
+[9.506s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/path.sh
+[9.506s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/environment/path.dsv
+[9.506s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/local_setup.bash
+[9.506s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/local_setup.sh
+[9.507s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/local_setup.zsh
+[9.507s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/local_setup.dsv
+[9.507s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/package.dsv
+[9.508s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/ament_index/resource_index/packages/controller_msgs
+[9.508s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_generator_cExport.cmake
+[9.509s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.509s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.509s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.510s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.510s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.510s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_cExport.cmake
+[9.511s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.511s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_generator_cppExport.cmake
+[9.511s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.511s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.512s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.512s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.512s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_cppExport.cmake
+[9.512s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.513s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_generator_pyExport.cmake
+[9.513s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/export_controller_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.513s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/rosidl_cmake-extras.cmake
+[9.514s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.514s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.514s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.514s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.515s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.515s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.515s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[9.515s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgsConfig.cmake
+[9.516s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake/controller_msgsConfig-version.cmake
+[9.516s] -- Installing: /home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/package.xml
+[9.519s] Invoked command in '/home/fazal/ros2_ws/build/controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/fazal/ros2_ws/build/controller_msgs

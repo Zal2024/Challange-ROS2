@@ -1,0 +1,2 @@
+Invoking command in '/home/fazal/ros2_ws/build/simple_demo_cpp': /usr/bin/cmake --build /home/fazal/ros2_ws/build/simple_demo_cpp -- -j8 -l8
+Invoked command in '/home/fazal/ros2_ws/build/simple_demo_cpp' returned '2': /usr/bin/cmake --build /home/fazal/ros2_ws/build/simple_demo_cpp -- -j8 -l8

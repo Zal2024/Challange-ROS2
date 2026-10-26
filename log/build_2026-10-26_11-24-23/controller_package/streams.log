@@ -1,0 +1,40 @@
+[0.019s] Invoking command in '/home/fazal/ros2_ws/build/controller_package': CMAKE_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/controller_package:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/fazal/ros2_ws/build/controller_package -- -j8 -l8
+[0.093s] [ 50%] Built target controller_publisher
+[0.123s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_subscriber.dir/src/controller_subscriber.cpp.o[0m
+[0.435s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:37:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.435s]    25 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"[m[Kvelx: %.2f, vely:
+[0.435s]       |                                     [01;35m[K^[m[K
+[0.436s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:26:23:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.436s]    26 |     ￹%.2f, angvel: %.2f[01;35m[K"[m[K, msg->velx, msg->vely, msg->angvel);
+[0.436s]       |                       [01;35m[K^[m[K
+[0.437s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:38:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.437s]    38 | }
+[0.437s]       |  [01;31m[K^[m[K
+[3.480s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.480s]    25 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "velx: %.2f, vely:
+[3.480s]       |                [01;31m[K^[m[K
+[3.480s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:8:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.480s]     8 | [01;36m[K{[m[K
+[3.481s]       | [01;36m[K^[m[K
+[3.495s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:[m[K In constructor ‘[01m[KListener::[01;32m[KListener[m[K()[m[K’:
+[3.495s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:12:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_controller[m[K’ was not declared in this scope
+[3.495s]    12 |       [01;31m[Ksub_controller[m[K = this->create_subscription<controller_msgs::msg::Controller>("controller", 10,std::bind(&Listener::controllerCallback, this, std::placeholders::_1)
+[3.495s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.553s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:[m[K In member function ‘[01m[Kvoid Listener::[01;32m[KcontrollerCallback[m[K(controller_msgs::msg::Controller_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.553s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[3.554s]    25 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "velx: %.2f, vely:
+[3.554s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.554s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.554s]    25 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "velx: %.2f, vely:
+[3.554s]       |                [01;31m[K^[m[K
+[3.554s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:20:3:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.555s]    20 |   [01;36m[K{[m[K
+[3.555s]       |   [01;36m[K^[m[K
+[3.555s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:[m[K At global scope:
+[3.555s] [01m[K/home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp/src/controller_subscriber.cpp:25:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[3.555s]    25 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "velx: %.2f, vely:
+[3.555s]       |                [01;31m[K^[m[K
+[6.584s] gmake[2]: *** [CMakeFiles/controller_subscriber.dir/build.make:76: CMakeFiles/controller_subscriber.dir/src/controller_subscriber.cpp.o] Error 1
+[6.585s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller_subscriber.dir/all] Error 2
+[6.585s] gmake: *** [Makefile:146: all] Error 2
+[6.588s] Invoked command in '/home/fazal/ros2_ws/build/controller_package' returned '2': CMAKE_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/controller_package:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/fazal/ros2_ws/build/controller_package -- -j8 -l8

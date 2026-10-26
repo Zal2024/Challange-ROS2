@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "controller_msgs__py",
+		"source" : "/home/fazal/ros2_ws/build/controller_msgs/controller_msgs__py"
+	}
+}

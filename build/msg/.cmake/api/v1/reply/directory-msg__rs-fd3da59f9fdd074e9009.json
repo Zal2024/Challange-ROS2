@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "msg__rs",
+		"source" : "/home/fazal/ros2_ws/build/msg/msg__rs"
+	}
+}

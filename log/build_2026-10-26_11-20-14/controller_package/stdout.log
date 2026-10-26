@@ -1,0 +1,40 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found controller_msgs: 0.0.0 (/home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake)
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/fazal/ros2_ws/build/controller_package
+[ 50%] [32mBuilding CXX object CMakeFiles/controller_publisher.dir/src/controller_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controller_subscriber.dir/src/controller_subscriber.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable controller_publisher[0m
+[ 75%] Built target controller_publisher
+[100%] [32m[1mLinking CXX executable controller_subscriber[0m
+[100%] Built target controller_subscriber
+-- Install configuration: ""
+-- Installing: /home/fazal/ros2_ws/install/controller_package/lib/controller_package/controller_publisher
+-- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_package/lib/controller_package/controller_publisher" to ""
+-- Installing: /home/fazal/ros2_ws/install/controller_package/lib/controller_package/controller_subscriber
+-- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_package/lib/controller_package/controller_subscriber" to ""
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/ament_index/resource_index/package_run_dependencies/controller_package
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/ament_index/resource_index/parent_prefix_path/controller_package
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/environment/ament_prefix_path.sh
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/environment/ament_prefix_path.dsv
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/environment/path.sh
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/environment/path.dsv
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/local_setup.bash
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/local_setup.sh
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/local_setup.zsh
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/local_setup.dsv
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/package.dsv
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/ament_index/resource_index/packages/controller_package
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/cmake/controller_packageConfig.cmake
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/cmake/controller_packageConfig-version.cmake
+-- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/package.xml

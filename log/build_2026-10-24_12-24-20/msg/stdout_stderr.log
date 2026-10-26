@@ -1,0 +1,868 @@
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/fazal/ros2_ws/build/msg
+[  2%] Built target msg__rosidl_generator_type_description
+[  5%] Built target msg__rs
+[  5%] Built target ament_cmake_python_copy_msg
+[  8%] Built target msg__cpp
+[ 22%] Built target msg__rosidl_generator_c
+[ 31%] Built target msg__rosidl_typesupport_introspection_c
+[ 40%] Built target msg__rosidl_typesupport_c
+[ 42%] [32mBuilding CXX object CMakeFiles/msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp.o[0m
+[ 54%] Built target msg__rosidl_typesupport_fastrtps_c
+[ 57%] [32mBuilding CXX object CMakeFiles/msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp.o[0m
+running egg_info
+writing msg.egg-info/PKG-INFO
+writing dependency_links to msg.egg-info/dependency_links.txt
+writing top-level names to msg.egg-info/top_level.txt
+In file included from [01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:8[m[K:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:98:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   98 |     msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> *;
+      |          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:100:19:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  100 |     const msg::msg[01;31m[K::[m[KController_<ContainerAllocator> *;
+      |                   [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:100:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’
+  100 |     const[01;31m[K [m[K[32m[Kmsg[m[K::msg::Controller_<ContainerAllocator> *;
+      |          [01;31m[K^[m[K[32m[K~~~[m[K
+      |          [32m[K;[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  102 |     std::shared_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  102 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K;
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  104 |     std::shared_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> const>;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  104 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator> const[01;31m[K>[m[K;
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  107 |       msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>>
+      |            [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:12:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  107 |       msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K>
+      |                                               [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  109 |     std::unique_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>, Deleter>;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  109 |     std::unique_ptr<msg::msg::Controller_<ContainerAllocator>, Deleter[01;31m[K>[m[K;
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:111:21:[m[K [01;31m[Kerror: [m[K‘[01m[KUniquePtrWithDeleter[m[K’ does not name a type
+  111 |   using UniquePtr = [01;31m[KUniquePtrWithDeleter[m[K<>;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  114 |       msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>>
+      |            [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:12:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  114 |       msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K>
+      |                                               [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  116 |     std::unique_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> const, Deleter>;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  116 |     std::unique_ptr<msg::msg::Controller_<ContainerAllocator> const, Deleter[01;31m[K>[m[K;
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:117:26:[m[K [01;31m[Kerror: [m[K‘[01m[KConstUniquePtrWithDeleter[m[K’ does not name a type
+  117 |   using ConstUniquePtr = [01;31m[KConstUniquePtrWithDeleter[m[K<>;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  120 |     std::weak_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:24:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  120 |     std::weak_ptr<msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K;
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  122 |     std::weak_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> const>;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:24:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  122 |     std::weak_ptr<msg::msg::Controller_<ContainerAllocator> const[01;31m[K>[m[K;
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  127 |     std::shared_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  127 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  130 |     std::shared_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> const>
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  130 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator> const[01;31m[K>[m[K
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:155:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+  155 |   msg::[01;31m[Kmsg[m[K::Controller_<std::allocator<void>>;
+      |        [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:93:43:[m[K [01;31m[Kerror: [m[K‘[01m[KController[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’; did you mean ‘[01m[KController_[m[K’?
+   93 | get_message_type_support_handle<msg::msg::[01;31m[KController[m[K>()
+      |                                           [01;31m[K^~~~~~~~~~[m[K
+      |                                           [32m[KController_[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:93:1:[m[K [01;31m[Kerror: [m[Ktemplate-id ‘[01m[Kget_message_type_support_handle<<expression error> >[m[K’ for ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_cpp::[01;32m[Kget_message_type_support_handle[m[K()[m[K’ does not match any template declaration
+   93 | [01;31m[Kget_message_type_support_handle<msg::msg::Controller>[m[K()
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:10[m[K:
+[01m[K/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Ktemplate<class T> const rosidl_message_type_support_t* rosidl_typesupport_cpp::[01;32m[Kget_message_type_support_handle[m[K()[m[K’
+   25 | const rosidl_message_type_support_t * [01;36m[Kget_message_type_support_handle[m[K();
+      |                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:[m[K In function ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_cpp::[01;32m[Krosidl_typesupport_cpp__get_message_type_support_handle__msg__msg__Controller[m[K()[m[K’:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:106:52:[m[K [01;31m[Kerror: [m[K‘[01m[KController[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’; did you mean ‘[01m[KController_[m[K’?
+  106 |   return get_message_type_support_handle<msg::msg::[01;31m[KController[m[K>();
+      |                                                    [01;31m[K^~~~~~~~~~[m[K
+      |                                                    [32m[KController_[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:106:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget_message_type_support_handle<<expression error> >()[m[K’
+  106 |   return [01;31m[Kget_message_type_support_handle<msg::msg::Controller>()[m[K;
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> const rosidl_message_type_support_t* rosidl_typesupport_cpp::[01;32m[Kget_message_type_support_handle[m[K()[m[K’
+   25 | const rosidl_message_type_support_t * [01;36m[Kget_message_type_support_handle[m[K();
+      |                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:106:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  106 |   return [01;31m[Kget_message_type_support_handle<msg::msg::Controller>()[m[K;
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+reading manifest file 'msg.egg-info/SOURCES.txt'
+writing manifest file 'msg.egg-info/SOURCES.txt'
+gmake[2]: *** [CMakeFiles/msg__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/msg__rosidl_typesupport_cpp.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:13[m[K:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:98:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   98 |     msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> *;
+      |          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:100:19:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  100 |     const msg::msg[01;31m[K::[m[KController_<ContainerAllocator> *;
+      |                   [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:100:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’
+  100 |     const[01;31m[K [m[K[32m[Kmsg[m[K::msg::Controller_<ContainerAllocator> *;
+      |          [01;31m[K^[m[K[32m[K~~~[m[K
+      |          [32m[K;[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  102 |     std::shared_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  102 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K;
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  104 |     std::shared_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> const>;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  104 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator> const[01;31m[K>[m[K;
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  107 |       msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>>
+      |            [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:12:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  107 |       msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K>
+      |                                               [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  109 |     std::unique_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>, Deleter>;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  109 |     std::unique_ptr<msg::msg::Controller_<ContainerAllocator>, Deleter[01;31m[K>[m[K;
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:111:21:[m[K [01;31m[Kerror: [m[K‘[01m[KUniquePtrWithDeleter[m[K’ does not name a type
+  111 |   using UniquePtr = [01;31m[KUniquePtrWithDeleter[m[K<>;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  114 |       msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>>
+      |            [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:12:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  114 |       msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K>
+      |                                               [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  116 |     std::unique_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> const, Deleter>;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  116 |     std::unique_ptr<msg::msg::Controller_<ContainerAllocator> const, Deleter[01;31m[K>[m[K;
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:117:26:[m[K [01;31m[Kerror: [m[K‘[01m[KConstUniquePtrWithDeleter[m[K’ does not name a type
+  117 |   using ConstUniquePtr = [01;31m[KConstUniquePtrWithDeleter[m[K<>;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  120 |     std::weak_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:24:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  120 |     std::weak_ptr<msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K;
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  122 |     std::weak_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> const>;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:24:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  122 |     std::weak_ptr<msg::msg::Controller_<ContainerAllocator> const[01;31m[K>[m[K;
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  127 |     std::shared_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  127 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  130 |     std::shared_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> const>
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  130 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator> const[01;31m[K>[m[K
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:155:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+  155 |   msg::[01;31m[Kmsg[m[K::Controller_<std::allocator<void>>;
+      |        [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:[m[K In function ‘[01m[Kvoid msg::msg::rosidl_typesupport_introspection_cpp::[01;32m[KController_init_function[m[K(void*, rosidl_runtime_cpp::MessageInitialization)[m[K’:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:32:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   32 |   new (message_memory) msg::[01;31m[Kmsg[m[K::Controller(_init);
+      |                             [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:30:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_init[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   30 |   void * message_memory, [01;35m[Krosidl_runtime_cpp::MessageInitialization _init[m[K)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:[m[K In function ‘[01m[Kvoid msg::msg::rosidl_typesupport_introspection_cpp::[01;32m[KController_fini_function[m[K(void*)[m[K’:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:37:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   37 |   auto typed_message = static_cast<msg::[01;31m[Kmsg[m[K::Controller *>(message_memory);
+      |                                         [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:37:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[K::[m[K’ token
+   37 |   auto typed_message = static_cast<msg::msg[01;31m[K::[m[KController *>(message_memory);
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:37:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K::[m[K’ token
+   37 |   auto typed_message = static_cast<msg::msg[01;31m[K:[m[K[32m[K:[m[KController *>(message_memory);
+      |                                            [01;31m[K^[m[K[32m[K~[m[K
+      |                                            [32m[K([m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:37:46:[m[K [01;31m[Kerror: [m[K‘[01m[K::Controller[m[K’ has not been declared; did you mean ‘[01m[KController_[m[K’?
+   37 |   auto typed_message = static_cast<msg::msg::[01;31m[KController[m[K *>(message_memory);
+      |                                              [01;31m[K^~~~~~~~~~[m[K
+      |                                              [32m[KController_[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:37:58:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   37 |   auto typed_message = static_cast<msg::msg::Controller *[01;31m[K>[m[K(message_memory);
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:37:75:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   37 |   auto typed_message = static_cast<msg::msg::Controller *>(message_memory)[01;31m[K;[m[K
+      |                                                                           [01;31m[K^[m[K
+      |                                                                           [32m[K)[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:38:29:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+   38 |   typed_message->~Controller[01;31m[K([m[K);
+      |                             [01;31m[K^[m[K
+In file included from [01m[K/usr/include/time.h:29[m[K,
+                 from [01m[K/usr/include/pthread.h:23[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:35[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:148[m[K,
+                 from [01m[K/usr/include/c++/13/ext/atomicity.h:35[m[K,
+                 from [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:61[m[K,
+                 from [01m[K/usr/include/c++/13/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:14[m[K:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:[m[K At global scope:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:51:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   51 |     offsetof(msg::[01;31m[Kmsg[m[K::Controller, velx),  // bytes offset in struct
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:51:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ before ‘[01m[K::[m[K’ token
+   51 |     offsetof(msg::msg[01;31m[K::[m[KController, velx),  // bytes offset in struct
+      |                      [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:51:22:[m[K [01;31m[Kerror: [m[K‘[01m[K::::Controller[m[K’ is not a class member
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:51:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K,[m[K’ token
+   51 |     [01;31m[Koffsetof[m[K(msg::msg::Controller, velx),  // bytes offset in struct
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:69:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   69 |     offsetof(msg::[01;31m[Kmsg[m[K::Controller, vely),  // bytes offset in struct
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:69:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ before ‘[01m[K::[m[K’ token
+   69 |     offsetof(msg::msg[01;31m[K::[m[KController, vely),  // bytes offset in struct
+      |                      [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:69:22:[m[K [01;31m[Kerror: [m[K‘[01m[K::::Controller[m[K’ is not a class member
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:69:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K,[m[K’ token
+   69 |     [01;31m[Koffsetof[m[K(msg::msg::Controller, vely),  // bytes offset in struct
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:87:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   87 |     offsetof(msg::[01;31m[Kmsg[m[K::Controller, angvel),  // bytes offset in struct
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:87:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ before ‘[01m[K::[m[K’ token
+   87 |     offsetof(msg::msg[01;31m[K::[m[KController, angvel),  // bytes offset in struct
+      |                      [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:87:22:[m[K [01;31m[Kerror: [m[K‘[01m[K::::Controller[m[K’ is not a class member
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:87:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K,[m[K’ token
+   87 |     [01;31m[Koffsetof[m[K(msg::msg::Controller, angvel),  // bytes offset in struct
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:102:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg::msg::msg[m[K’ has not been declared
+  102 |   sizeof(msg::[01;31m[Kmsg[m[K::Controller),
+      |               [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:131:43:[m[K [01;31m[Kerror: [m[K‘[01m[KController[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’; did you mean ‘[01m[KController_[m[K’?
+  131 | get_message_type_support_handle<msg::msg::[01;31m[KController[m[K>()
+      |                                           [01;31m[K^~~~~~~~~~[m[K
+      |                                           [32m[KController_[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:131:1:[m[K [01;31m[Kerror: [m[Ktemplate-id ‘[01m[Kget_message_type_support_handle<<expression error> >[m[K’ for ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_introspection_cpp::[01;32m[Kget_message_type_support_handle[m[K()[m[K’ does not match any template declaration
+  131 | [01;31m[Kget_message_type_support_handle<msg::msg::Controller>[m[K()
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:17[m[K:
+[01m[K/opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp:32:39:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Ktemplate<class T> const rosidl_message_type_support_t* rosidl_typesupport_introspection_cpp::[01;32m[Kget_message_type_support_handle[m[K()[m[K’
+   32 | const rosidl_message_type_support_t * [01;36m[Kget_message_type_support_handle[m[K();
+      |                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 57%] Built target ament_cmake_python_build_msg_egg
+In file included from [01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:12[m[K,
+                 from [01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:4[m[K:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:98:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   98 |     msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> *;
+      |          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:100:19:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  100 |     const msg::msg[01;31m[K::[m[KController_<ContainerAllocator> *;
+      |                   [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:100:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’
+  100 |     const[01;31m[K [m[K[32m[Kmsg[m[K::msg::Controller_<ContainerAllocator> *;
+      |          [01;31m[K^[m[K[32m[K~~~[m[K
+      |          [32m[K;[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  102 |     std::shared_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  102 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K;
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  104 |     std::shared_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> const>;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  104 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator> const[01;31m[K>[m[K;
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  107 |       msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>>
+      |            [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:12:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  107 |       msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K>
+      |                                               [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  109 |     std::unique_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>, Deleter>;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  109 |     std::unique_ptr<msg::msg::Controller_<ContainerAllocator>, Deleter[01;31m[K>[m[K;
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:111:21:[m[K [01;31m[Kerror: [m[K‘[01m[KUniquePtrWithDeleter[m[K’ does not name a type
+  111 |   using UniquePtr = [01;31m[KUniquePtrWithDeleter[m[K<>;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  114 |       msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>>
+      |            [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:12:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  114 |       msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K>
+      |                                               [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  116 |     std::unique_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> const, Deleter>;
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  116 |     std::unique_ptr<msg::msg::Controller_<ContainerAllocator> const, Deleter[01;31m[K>[m[K;
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:117:26:[m[K [01;31m[Kerror: [m[K‘[01m[KConstUniquePtrWithDeleter[m[K’ does not name a type
+  117 |   using ConstUniquePtr = [01;31m[KConstUniquePtrWithDeleter[m[K<>;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  120 |     std::weak_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:24:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  120 |     std::weak_ptr<msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K;
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  122 |     std::weak_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> const>;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:24:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  122 |     std::weak_ptr<msg::msg::Controller_<ContainerAllocator> const[01;31m[K>[m[K;
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  127 |     std::shared_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator>>
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  127 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator[01;31m[K>>[m[K
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’
+  130 |     std::shared_ptr<msg::[01;31m[Kmsg[m[K::Controller_<ContainerAllocator> const>
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg[m[K’
+   28 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmsg::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  130 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator> const[01;31m[K>[m[K
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:155:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+  155 |   msg::[01;31m[Kmsg[m[K::Controller_<std::allocator<void>>;
+      |        [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/msg__rosidl_typesupport_introspection_cpp.dir/build.make:91: CMakeFiles/msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:418: CMakeFiles/msg__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:40:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   40 |   const msg::[01;31m[Kmsg[m[K::Controller & ros_message,
+      |              [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:40:30:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   40 |   const msg::msg::Controller [01;31m[K&[m[K ros_message,
+      |                              [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:40:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   40 |   const msg::msg::Controller[01;31m[K [m[K[32m[K&[m[K ros_message,
+      |                             [01;31m[K^[m[K[32m[K~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:39:14:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   39 | cdr_serialize[01;36m[K([m[K
+      |              [01;36m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:40:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kros_message[m[K’
+   40 |   const msg::msg::Controller & [01;31m[Kros_message[m[K,
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:47:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg::msg::msg[m[K’ has not been declared
+   47 |   msg::[01;31m[Kmsg[m[K::Controller & ros_message);
+      |        [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:47:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+   47 |   msg::msg::Controller [01;31m[K&[m[K ros_message);
+      |                        [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:52:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   52 |   const msg::[01;31m[Kmsg[m[K::Controller & ros_message,
+      |              [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:52:30:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   52 |   const msg::msg::Controller [01;31m[K&[m[K ros_message,
+      |                              [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:52:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   52 |   const msg::msg::Controller[01;31m[K [m[K[32m[K&[m[K ros_message,
+      |                             [01;31m[K^[m[K[32m[K~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:51:20:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   51 | get_serialized_size[01;36m[K([m[K
+      |                    [01;36m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:52:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kros_message[m[K’
+   52 |   const msg::msg::Controller & [01;31m[Kros_message[m[K,
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:65:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   65 |   const msg::[01;31m[Kmsg[m[K::Controller & ros_message,
+      |              [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:65:30:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   65 |   const msg::msg::Controller [01;31m[K&[m[K ros_message,
+      |                              [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:65:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   65 |   const msg::msg::Controller[01;31m[K [m[K[32m[K&[m[K ros_message,
+      |                             [01;31m[K^[m[K[32m[K~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:64:18:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   64 | cdr_serialize_key[01;36m[K([m[K
+      |                  [01;36m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:65:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kros_message[m[K’
+   65 |   const msg::msg::Controller & [01;31m[Kros_message[m[K,
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:71:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   71 |   const msg::[01;31m[Kmsg[m[K::Controller & ros_message,
+      |              [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:71:30:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   71 |   const msg::msg::Controller [01;31m[K&[m[K ros_message,
+      |                              [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:71:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   71 |   const msg::msg::Controller[01;31m[K [m[K[32m[K&[m[K ros_message,
+      |                             [01;31m[K^[m[K[32m[K~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:70:24:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   70 | get_serialized_size_key[01;36m[K([m[K
+      |                        [01;36m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:71:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kros_message[m[K’
+   71 |   const msg::msg::Controller & [01;31m[Kros_message[m[K,
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:36:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   36 |   const msg::[01;31m[Kmsg[m[K::Controller & ros_message,
+      |              [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:36:30:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   36 |   const msg::msg::Controller [01;31m[K&[m[K ros_message,
+      |                              [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:36:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   36 |   const msg::msg::Controller[01;31m[K [m[K[32m[K&[m[K ros_message,
+      |                             [01;31m[K^[m[K[32m[K~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:35:14:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   35 | cdr_serialize[01;36m[K([m[K
+      |              [01;36m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:36:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kros_message[m[K’
+   36 |   const msg::msg::Controller & [01;31m[Kros_message[m[K,
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:55:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg::msg::msg[m[K’ has not been declared
+   55 |   msg::[01;31m[Kmsg[m[K::Controller & ros_message)
+      |        [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:55:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+   55 |   msg::msg::Controller [01;31m[K&[m[K ros_message)
+      |                        [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:[m[K In function ‘[01m[Kbool msg::msg::typesupport_fastrtps_cpp::[01;32m[Kcdr_deserialize[m[K(eprosima::fastcdr::Cdr&, int)[m[K’:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:58:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_message[m[K’ was not declared in this scope
+   58 |   cdr >> [01;31m[Kros_message[m[K.velx;
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:55:13:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KController[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   55 |   [01;35m[Kmsg::msg::Controller[m[K & ros_message)
+      |   [01;35m[K~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:[m[K At global scope:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:73:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+   73 |   const msg::[01;31m[Kmsg[m[K::Controller & ros_message,
+      |              [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:73:30:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   73 |   const msg::msg::Controller [01;31m[K&[m[K ros_message,
+      |                              [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:73:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   73 |   const msg::msg::Controller[01;31m[K [m[K[32m[K&[m[K ros_message,
+      |                             [01;31m[K^[m[K[32m[K~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:72:20:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   72 | get_serialized_size[01;36m[K([m[K
+      |                    [01;36m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:73:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kros_message[m[K’
+   73 |   const msg::msg::Controller & [01;31m[Kros_message[m[K,
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:[m[K In function ‘[01m[Ksize_t msg::msg::typesupport_fastrtps_cpp::[01;32m[Kmax_serialized_size_Controller[m[K(bool&, bool&, size_t)[m[K’:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:154:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+  154 |     using DataType = msg::[01;31m[Kmsg[m[K::Controller;
+      |                           [01;31m[K^~~[m[K
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:462[m[K,
+                 from [01m[K/usr/include/c++/13/cstring:42[m[K,
+                 from [01m[K/opt/ros/jazzy/include/fastcdr/fastcdr/Cdr.h:22[m[K,
+                 from [01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:26[m[K:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:157:16:[m[K [01;31m[Kerror: [m[K‘[01m[KDataType[m[K’ does not name a type
+  157 |       offsetof([01;31m[KDataType[m[K, angvel) +
+      |                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:[m[K At global scope:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:168:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+  168 |   const msg::[01;31m[Kmsg[m[K::Controller & ros_message,
+      |              [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:168:30:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  168 |   const msg::msg::Controller [01;31m[K&[m[K ros_message,
+      |                              [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:168:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  168 |   const msg::msg::Controller[01;31m[K [m[K[32m[K&[m[K ros_message,
+      |                             [01;31m[K^[m[K[32m[K~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:167:18:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  167 | cdr_serialize_key[01;36m[K([m[K
+      |                  [01;36m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:168:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kros_message[m[K’
+  168 |   const msg::msg::Controller & [01;31m[Kros_message[m[K,
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:186:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+  186 |   const msg::[01;31m[Kmsg[m[K::Controller & ros_message,
+      |              [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:186:30:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  186 |   const msg::msg::Controller [01;31m[K&[m[K ros_message,
+      |                              [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:186:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  186 |   const msg::msg::Controller[01;31m[K [m[K[32m[K&[m[K ros_message,
+      |                             [01;31m[K^[m[K[32m[K~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:185:24:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  185 | get_serialized_size_key[01;36m[K([m[K
+      |                        [01;36m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:186:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kros_message[m[K’
+  186 |   const msg::msg::Controller & [01;31m[Kros_message[m[K,
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:[m[K In function ‘[01m[Ksize_t msg::msg::typesupport_fastrtps_cpp::[01;32m[Kmax_serialized_size_key_Controller[m[K(bool&, bool&, size_t)[m[K’:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:268:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+  268 |     using DataType = msg::[01;31m[Kmsg[m[K::Controller;
+      |                           [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:271:16:[m[K [01;31m[Kerror: [m[K‘[01m[KDataType[m[K’ does not name a type
+  271 |       offsetof([01;31m[KDataType[m[K, angvel) +
+      |                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:[m[K In function ‘[01m[Kbool msg::msg::typesupport_fastrtps_cpp::[01;32m[K_Controller__cdr_serialize[m[K(const void*, eprosima::fastcdr::Cdr&)[m[K’:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:285:31:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  285 |     static_cast<const msg::msg[01;31m[K::[m[KController *>(
+      |                               [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:285:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’
+  285 |     static_cast<const [01;31m[Kmsg[m[K::msg::Controller *>(
+      |                       [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:285:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’
+  285 |     static_cast<const [01;31m[Km[m[K[32m[Ksg[m[K::msg::Controller *>(
+      |                       [01;31m[K^[m[K[32m[K~~[m[K
+      |                       [32m[K([m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:285:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg::msg::msg[m[K’ has not been declared
+  285 |     static_cast<const msg::[01;31m[Kmsg[m[K::Controller *>(
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:285:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  285 |     static_cast<const msg::msg::Controller *[01;31m[K>[m[K(
+      |                                             [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:286:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  286 |     untyped_ros_message)[01;31m[K;[m[K
+      |                         [01;31m[K^[m[K
+      |                         [32m[K)[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:287:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kcdr_serialize[m[K’ was not declared in this scope; did you mean ‘[01m[Krosidl_typesupport_fastrtps_cpp::cdr_serialize[m[K’?
+  287 |   return [01;31m[Kcdr_serialize[m[K(*typed_message, cdr);
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+      |          [32m[Krosidl_typesupport_fastrtps_cpp::cdr_serialize[m[K
+In file included from [01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:16[m[K:
+[01m[K/opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp:30:13:[m[K [01;36m[Knote: [m[K‘[01m[Krosidl_typesupport_fastrtps_cpp::cdr_serialize[m[K’ declared here
+   30 | inline void [01;36m[Kcdr_serialize[m[K(
+      |             [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:[m[K In function ‘[01m[Kbool msg::msg::typesupport_fastrtps_cpp::[01;32m[K_Controller__cdr_deserialize[m[K(eprosima::fastcdr::Cdr&, void*)[m[K’:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:295:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Kmsg::msg[m[K’ does not name a type
+  295 |     static_cast<msg::[01;31m[Kmsg[m[K::Controller *>(
+      |                      [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:295:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[K::[m[K’ token
+  295 |     static_cast<msg::msg[01;31m[K::[m[KController *>(
+      |                         [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:295:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K::[m[K’ token
+  295 |     static_cast<msg::msg[01;31m[K:[m[K[32m[K:[m[KController *>(
+      |                         [01;31m[K^[m[K[32m[K~[m[K
+      |                         [32m[K([m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:295:27:[m[K [01;31m[Kerror: [m[K‘[01m[K::Controller[m[K’ has not been declared; did you mean ‘[01m[KController_[m[K’?
+  295 |     static_cast<msg::msg::[01;31m[KController[m[K *>(
+      |                           [01;31m[K^~~~~~~~~~[m[K
+      |                           [32m[KController_[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:295:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  295 |     static_cast<msg::msg::Controller *[01;31m[K>[m[K(
+      |                                       [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:296:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  296 |     untyped_ros_message)[01;31m[K;[m[K
+      |                         [01;31m[K^[m[K
+      |                         [32m[K)[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:[m[K In function ‘[01m[Kuint32_t msg::msg::typesupport_fastrtps_cpp::[01;32m[K_Controller__get_serialized_size[m[K(const void*)[m[K’:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:304:31:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  304 |     static_cast<const msg::msg[01;31m[K::[m[KController *>(
+      |                               [01;31m[K^~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:304:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’
+  304 |     static_cast<const [01;31m[Kmsg[m[K::msg::Controller *>(
+      |                       [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:304:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’
+  304 |     static_cast<const [01;31m[Km[m[K[32m[Ksg[m[K::msg::Controller *>(
+      |                       [01;31m[K^[m[K[32m[K~~[m[K
+      |                       [32m[K([m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:304:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg::msg::msg[m[K’ has not been declared
+  304 |     static_cast<const msg::[01;31m[Kmsg[m[K::Controller *>(
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:304:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  304 |     static_cast<const msg::msg::Controller *[01;31m[K>[m[K(
+      |                                             [01;31m[K^[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:305:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  305 |     untyped_ros_message)[01;31m[K;[m[K
+      |                         [01;31m[K^[m[K
+      |                         [32m[K)[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:306:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_serialized_size[m[K’ was not declared in this scope
+  306 |   return static_cast<uint32_t>([01;31m[Kget_serialized_size[m[K(*typed_message, 0));
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:[m[K At global scope:
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:354:43:[m[K [01;31m[Kerror: [m[K‘[01m[KController[m[K’ is not a member of ‘[01m[Kmsg::msg[m[K’; did you mean ‘[01m[KController_[m[K’?
+  354 | get_message_type_support_handle<msg::msg::[01;31m[KController[m[K>()
+      |                                           [01;31m[K^~~~~~~~~~[m[K
+      |                                           [32m[KController_[m[K
+[01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:354:1:[m[K [01;31m[Kerror: [m[Ktemplate-id ‘[01m[Kget_message_type_support_handle<<expression error> >[m[K’ for ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_cpp::[01;32m[Kget_message_type_support_handle[m[K()[m[K’ does not match any template declaration
+  354 | [01;31m[Kget_message_type_support_handle<msg::msg::Controller>[m[K()
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:15[m[K:
+[01m[K/opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp:33:39:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Ktemplate<class T> const rosidl_message_type_support_t* rosidl_typesupport_fastrtps_cpp::[01;32m[Kget_message_type_support_handle[m[K()[m[K’
+   33 | const rosidl_message_type_support_t * [01;36m[Kget_message_type_support_handle[m[K();
+      |                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/msg__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:391: CMakeFiles/msg__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

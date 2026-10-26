@@ -1,0 +1,7 @@
+{
+  "package_name": "msg",
+  "output_dir": "/home/fazal/ros2_ws/build/msg/rosidl_generator_type_description/msg",
+  "idl_tuples": [
+    "/home/fazal/ros2_ws/build/msg/rosidl_adapter/msg:msg/Controller.idl"
+  ]
+}

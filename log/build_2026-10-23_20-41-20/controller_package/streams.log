@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/home/fazal/ros2_ws/build/controller_package': /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package
+[0.033s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.417s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.470s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.488s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.650s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.652s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.753s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.878s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.909s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.909s]   ament_target_dependencies() the passed package name 'package_messages' was
+[0.909s]   not found before
+[0.909s] Call Stack (most recent call first):
+[0.909s]   CMakeLists.txt:21 (ament_target_dependencies)
+[0.910s] 
+[0.910s] [0m
+[0.910s] -- Configuring incomplete, errors occurred!
+[0.919s] Invoked command in '/home/fazal/ros2_ws/build/controller_package' returned '1': /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package

@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/fazal/ros2_ws/build/controller_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package
+[0.026s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.311s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.354s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.368s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.528s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.530s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.610s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.757s] -- Configuring incomplete, errors occurred!
+[0.757s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.757s]   By not providing "Findmsg.cmake" in CMAKE_MODULE_PATH this project has
+[0.757s]   asked CMake to find a package configuration file provided by "msg", but
+[0.757s]   CMake did not find one.
+[0.758s] 
+[0.758s]   Could not find a package configuration file provided by "msg" with any of
+[0.758s]   the following names:
+[0.758s] 
+[0.761s]     msgConfig.cmake
+[0.761s]     msg-config.cmake
+[0.762s] 
+[0.762s]   Add the installation prefix of "msg" to CMAKE_PREFIX_PATH or set "msg_DIR"
+[0.762s]   to a directory containing one of the above files.  If "msg" provides a
+[0.762s]   separate development package or SDK, be sure it has been installed.
+[0.762s] 
+[0.763s] [0m
+[0.767s] Invoked command in '/home/fazal/ros2_ws/build/controller_package' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package

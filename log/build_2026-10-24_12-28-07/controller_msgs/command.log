@@ -1,0 +1,1 @@
+Invoking command in '/home/fazal/ros2_ws/build/controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/msg -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_msgs

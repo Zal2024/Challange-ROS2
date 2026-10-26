@@ -1,0 +1,7 @@
+{
+  "package_name": "controller_msgs",
+  "output_dir": "/home/fazal/ros2_ws/build/controller_msgs/rosidl_generator_type_description/controller_msgs",
+  "idl_tuples": [
+    "/home/fazal/ros2_ws/build/controller_msgs/rosidl_adapter/controller_msgs:msg/Controller.idl"
+  ]
+}

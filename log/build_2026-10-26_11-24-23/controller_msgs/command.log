@@ -1,0 +1,4 @@
+Invoking command in '/home/fazal/ros2_ws/build/controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/fazal/ros2_ws/build/controller_msgs -- -j8 -l8
+Invoked command in '/home/fazal/ros2_ws/build/controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/fazal/ros2_ws/build/controller_msgs -- -j8 -l8
+Invoking command in '/home/fazal/ros2_ws/build/controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/fazal/ros2_ws/build/controller_msgs
+Invoked command in '/home/fazal/ros2_ws/build/controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/fazal/ros2_ws/build/controller_msgs

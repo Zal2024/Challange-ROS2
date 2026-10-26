@@ -1,0 +1,69 @@
+[0.024s] Invoking command in '/home/fazal/ros2_ws/build/msg': /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/msg -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/msg
+[0.186s] -- The C compiler identification is GNU 13.3.0
+[0.287s] -- The CXX compiler identification is GNU 13.3.0
+[0.306s] -- Detecting C compiler ABI info
+[0.404s] -- Detecting C compiler ABI info - done
+[0.417s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.417s] -- Detecting C compile features
+[0.418s] -- Detecting C compile features - done
+[0.427s] -- Detecting CXX compiler ABI info
+[0.522s] -- Detecting CXX compiler ABI info - done
+[0.534s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.535s] -- Detecting CXX compile features
+[0.535s] -- Detecting CXX compile features - done
+[0.541s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.744s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.882s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.009s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.076s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.085s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.209s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.213s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.300s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.323s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.348s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.453s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.760s] Error parsing '/home/fazal/ros2_ws/src/simple_demo_cpp/include/msg/package.xml':
+[6.287s] Traceback (most recent call last):
+[6.288s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[6.288s]     root = dom.parseString(data)
+[6.288s]            ^^^^^^^^^^^^^^^^^^^^^
+[6.288s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 1995, in parseString
+[6.289s]     return expatbuilder.parseString(string)
+[6.289s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[6.289s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[6.290s]     return builder.parseString(string)
+[6.290s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[6.290s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[6.290s]     parser.Parse(string, True)
+[6.291s] xml.parsers.expat.ExpatError: junk after document element: line 30, column 0
+[6.291s] 
+[6.291s] During handling of the above exception, another exception occurred:
+[6.291s] 
+[6.292s] Traceback (most recent call last):
+[6.292s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[6.292s]     main()
+[6.292s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[6.292s]     raise e
+[6.292s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[6.293s]     package = parse_package_string(
+[6.293s]               ^^^^^^^^^^^^^^^^^^^^^
+[6.293s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[6.293s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[6.293s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/fazal/ros2_ws/src/simple_demo_cpp/include/msg/package.xml':
+[6.293s] The manifest contains invalid XML:
+[6.294s] junk after document element: line 30, column 0
+[6.346s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[6.346s]   execute_process(/usr/bin/python3
+[6.347s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[6.347s]   /home/fazal/ros2_ws/src/simple_demo_cpp/include/msg/package.xml
+[6.347s]   /home/fazal/ros2_ws/build/msg/ament_cmake_core/package.cmake) returned
+[6.347s]   error code 1
+[6.348s] Call Stack (most recent call first):
+[6.348s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[6.348s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[6.348s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[6.348s] 
+[6.348s] [0m
+[6.349s] -- Configuring incomplete, errors occurred!
+[6.359s] Invoked command in '/home/fazal/ros2_ws/build/msg' returned '1': /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/msg -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/msg

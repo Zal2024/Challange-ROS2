@@ -1,0 +1,68 @@
+[0.018s] Invoking command in '/home/fazal/ros2_ws/build/simple_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/simple_demo_cpp
+[0.324s] -- The C compiler identification is GNU 13.3.0
+[0.667s] -- The CXX compiler identification is GNU 13.3.0
+[0.695s] -- Detecting C compiler ABI info
+[0.871s] -- Detecting C compiler ABI info - done
+[0.974s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.975s] -- Detecting C compile features
+[0.976s] -- Detecting C compile features - done
+[1.067s] -- Detecting CXX compiler ABI info
+[1.203s] -- Detecting CXX compiler ABI info - done
+[1.300s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.300s] -- Detecting CXX compile features
+[1.302s] -- Detecting CXX compile features - done
+[1.311s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.608s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.773s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.925s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.952s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.064s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.240s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.245s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.473s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.504s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.541s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.827s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.862s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.175s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.176s] -- Configured cppcheck include dirs: 
+[3.176s] -- Configured cppcheck exclude dirs and/or files: 
+[3.178s] -- Added test 'lint_cmake' to check CMake code style
+[3.180s] -- Added test 'uncrustify' to check C / C++ code style
+[3.180s] -- Configured uncrustify additional arguments: 
+[3.181s] -- Added test 'xmllint' to check XML markup files
+[3.184s] -- Configuring done (3.2s)
+[3.211s] -- Generating done (0.0s)
+[3.225s] -- Build files have been written to: /home/fazal/ros2_ws/build/simple_demo_cpp
+[3.244s] Invoked command in '/home/fazal/ros2_ws/build/simple_demo_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/simple_demo_cpp
+[3.247s] Invoking command in '/home/fazal/ros2_ws/build/simple_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/fazal/ros2_ws/build/simple_demo_cpp -- -j8 -l8
+[3.314s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[3.315s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[10.648s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[10.977s] [ 75%] Built target talker
+[15.355s] [100%] [32m[1mLinking CXX executable listener[0m
+[15.824s] [100%] Built target listener
+[15.847s] Invoked command in '/home/fazal/ros2_ws/build/simple_demo_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/fazal/ros2_ws/build/simple_demo_cpp -- -j8 -l8
+[15.867s] Invoking command in '/home/fazal/ros2_ws/build/simple_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/fazal/ros2_ws/build/simple_demo_cpp
+[15.882s] -- Install configuration: ""
+[15.883s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/lib/simple_demo_cpp/talker
+[15.889s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/simple_demo_cpp/lib/simple_demo_cpp/talker" to ""
+[15.889s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/lib/simple_demo_cpp/listener
+[15.909s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/simple_demo_cpp/lib/simple_demo_cpp/listener" to ""
+[15.909s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/ament_index/resource_index/package_run_dependencies/simple_demo_cpp
+[15.910s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/ament_index/resource_index/parent_prefix_path/simple_demo_cpp
+[15.911s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/environment/ament_prefix_path.sh
+[15.911s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/environment/ament_prefix_path.dsv
+[15.912s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/environment/path.sh
+[15.912s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/environment/path.dsv
+[15.912s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.bash
+[15.913s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.sh
+[15.914s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.zsh
+[15.914s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.dsv
+[15.915s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/package.dsv
+[15.915s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/ament_index/resource_index/packages/simple_demo_cpp
+[15.916s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/cmake/simple_demo_cppConfig.cmake
+[15.916s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/cmake/simple_demo_cppConfig-version.cmake
+[15.917s] -- Installing: /home/fazal/ros2_ws/install/simple_demo_cpp/share/simple_demo_cpp/package.xml
+[15.920s] Invoked command in '/home/fazal/ros2_ws/build/simple_demo_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/fazal/ros2_ws/build/simple_demo_cpp

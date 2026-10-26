@@ -1,0 +1,46 @@
+[0.035s] Invoking command in '/home/fazal/ros2_ws/build/controller_package': AMENT_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/fazal/ros2_ws/install/controller_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package
+[0.077s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.564s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.634s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.659s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.689s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.854s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.856s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.960s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.076s] -- Found controller_msgs: 0.0.0 (/home/fazal/ros2_ws/install/controller_msgs/share/controller_msgs/cmake)
+[1.094s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.269s] -- Configuring done (1.2s)
+[1.296s] -- Generating done (0.0s)
+[1.306s] -- Build files have been written to: /home/fazal/ros2_ws/build/controller_package
+[1.316s] Invoked command in '/home/fazal/ros2_ws/build/controller_package' returned '0': AMENT_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/fazal/ros2_ws/install/controller_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package
+[1.317s] Invoking command in '/home/fazal/ros2_ws/build/controller_package': AMENT_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/fazal/ros2_ws/install/controller_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fazal/ros2_ws/build/controller_package -- -j8 -l8
+[1.397s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_publisher.dir/src/controller_publisher.cpp.o[0m
+[1.398s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_subscriber.dir/src/controller_subscriber.cpp.o[0m
+[8.452s] [ 75%] [32m[1mLinking CXX executable controller_publisher[0m
+[8.806s] [ 75%] Built target controller_publisher
+[13.158s] [100%] [32m[1mLinking CXX executable controller_subscriber[0m
+[13.681s] [100%] Built target controller_subscriber
+[13.696s] Invoked command in '/home/fazal/ros2_ws/build/controller_package' returned '0': AMENT_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/fazal/ros2_ws/install/controller_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fazal/ros2_ws/build/controller_package -- -j8 -l8
+[13.698s] Invoking command in '/home/fazal/ros2_ws/build/controller_package': AMENT_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/fazal/ros2_ws/install/controller_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fazal/ros2_ws/build/controller_package
+[13.707s] -- Install configuration: ""
+[13.708s] -- Installing: /home/fazal/ros2_ws/install/controller_package/lib/controller_package/controller_publisher
+[13.712s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_package/lib/controller_package/controller_publisher" to ""
+[13.712s] -- Installing: /home/fazal/ros2_ws/install/controller_package/lib/controller_package/controller_subscriber
+[13.728s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_package/lib/controller_package/controller_subscriber" to ""
+[13.728s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/ament_index/resource_index/package_run_dependencies/controller_package
+[13.728s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/ament_index/resource_index/parent_prefix_path/controller_package
+[13.728s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/environment/ament_prefix_path.sh
+[13.729s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/environment/ament_prefix_path.dsv
+[13.729s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/environment/path.sh
+[13.730s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/environment/path.dsv
+[13.730s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/local_setup.bash
+[13.731s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/local_setup.sh
+[13.731s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/local_setup.zsh
+[13.732s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/local_setup.dsv
+[13.732s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/package.dsv
+[13.733s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/ament_index/resource_index/packages/controller_package
+[13.733s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/cmake/controller_packageConfig.cmake
+[13.733s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/cmake/controller_packageConfig-version.cmake
+[13.734s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/package.xml
+[13.738s] Invoked command in '/home/fazal/ros2_ws/build/controller_package' returned '0': AMENT_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/fazal/ros2_ws/install/controller_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fazal/ros2_ws/install/controller_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fazal/ros2_ws/build/controller_package

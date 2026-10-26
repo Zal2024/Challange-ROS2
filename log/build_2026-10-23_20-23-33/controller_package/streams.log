@@ -1,0 +1,44 @@
+[0.024s] Invoking command in '/home/fazal/ros2_ws/build/controller_package': /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package
+[0.240s] -- The C compiler identification is GNU 13.3.0
+[0.490s] -- The CXX compiler identification is GNU 13.3.0
+[0.548s] -- Detecting C compiler ABI info
+[0.783s] -- Detecting C compiler ABI info - done
+[0.807s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.808s] -- Detecting C compile features
+[0.809s] -- Detecting C compile features - done
+[0.827s] -- Detecting CXX compiler ABI info
+[1.037s] -- Detecting CXX compiler ABI info - done
+[1.059s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.060s] -- Detecting CXX compile features
+[1.061s] -- Detecting CXX compile features - done
+[1.097s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.371s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.637s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.853s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.903s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.937s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.973s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.134s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.139s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.262s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.297s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.334s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.509s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[2.509s]   By not providing "Findpackage_messages.cmake" in CMAKE_MODULE_PATH this
+[2.509s]   project has asked CMake to find a package configuration file provided by
+[2.509s]   "package_messages", but CMake did not find one.
+[2.509s] 
+[2.510s]   Could not find a package configuration file provided by "package_messages"
+[2.510s]   with any of the following names:
+[2.510s] 
+[2.510s]     package_messagesConfig.cmake
+[2.510s]     package_messages-config.cmake
+[2.511s] 
+[2.511s]   Add the installation prefix of "package_messages" to CMAKE_PREFIX_PATH or
+[2.511s]   set "package_messages_DIR" to a directory containing one of the above
+[2.511s]   files.  If "package_messages" provides a separate development package or
+[2.512s]   SDK, be sure it has been installed.
+[2.512s] 
+[2.512s] [0m
+[2.512s] -- Configuring incomplete, errors occurred!
+[2.521s] Invoked command in '/home/fazal/ros2_ws/build/controller_package' returned '1': /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package

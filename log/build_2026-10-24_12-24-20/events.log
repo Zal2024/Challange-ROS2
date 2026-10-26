@@ -1,0 +1,899 @@
+[0.000000] (-) TimerEvent: {}
+[0.000411] (msg) JobQueued: {'identifier': 'msg', 'dependencies': OrderedDict()}
+[0.000543] (controller_package) JobQueued: {'identifier': 'controller_package', 'dependencies': OrderedDict({'msg': '/home/fazal/ros2_ws/install/msg'})}
+[0.000592] (msg) JobStarted: {'identifier': 'msg'}
+[0.009298] (msg) JobProgress: {'identifier': 'msg', 'progress': 'cmake'}
+[0.009934] (msg) JobProgress: {'identifier': 'msg', 'progress': 'build'}
+[0.010500] (msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fazal/ros2_ws/build/msg', '--', '-j8', '-l8'], 'cwd': '/home/fazal/ros2_ws/build/msg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'fazal', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2007', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/fazal', 'OLDPWD': '/home/fazal', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/fazal/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fazal', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/home/fazal/.local/bin:/opt/ros/jazzy/bin:/home/fazal/.local/bin:/home/fazal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ThinkPad-X13-Yoga:@/tmp/.ICE-unix/1747,unix/ThinkPad-X13-Yoga:/tmp/.ICE-unix/1747', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fd0e303c_9a68_4e16_a5b4_9c65c9fab5b0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/fazal/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.234', 'SSH_AUTH_SOCK': '/tmp/ssh-oGi3YieOIv4g/agent.2006', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fazal', 'AMENT_PREFIX_PATH': '/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/fazal/ros2_ws/build/msg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/fazal/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.036655] (msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.099585] (-) TimerEvent: {}
+[0.159654] (msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199721] (-) TimerEvent: {}
+[0.206367] (msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.239390] (msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.241193] (msg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.299852] (-) TimerEvent: {}
+[0.309272] (msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.310733] (msg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.375874] (msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399983] (-) TimerEvent: {}
+[0.454919] (msg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.500122] (-) TimerEvent: {}
+[0.600367] (-) TimerEvent: {}
+[0.700710] (-) TimerEvent: {}
+[0.730815] (msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.800832] (-) TimerEvent: {}
+[0.828422] (msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.900964] (-) TimerEvent: {}
+[0.968528] (msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.970330] (msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.001081] (-) TimerEvent: {}
+[1.101398] (-) TimerEvent: {}
+[1.201687] (-) TimerEvent: {}
+[1.262599] (msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.299704] (msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.301809] (-) TimerEvent: {}
+[1.308827] (msg) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.345827] (msg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.361123] (msg) StdoutLine: {'line': b'-- Build files have been written to: /home/fazal/ros2_ws/build/msg\n'}
+[1.397143] (msg) StdoutLine: {'line': b'[  2%] Built target msg__rosidl_generator_type_description\n'}
+[1.399531] (msg) StdoutLine: {'line': b'[  5%] Built target msg__rs\n'}
+[1.401921] (-) TimerEvent: {}
+[1.405896] (msg) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_msg\n'}
+[1.419865] (msg) StdoutLine: {'line': b'[  8%] Built target msg__cpp\n'}
+[1.425105] (msg) StdoutLine: {'line': b'[ 22%] Built target msg__rosidl_generator_c\n'}
+[1.456810] (msg) StdoutLine: {'line': b'[ 31%] Built target msg__rosidl_typesupport_introspection_c\n'}
+[1.457184] (msg) StdoutLine: {'line': b'[ 40%] Built target msg__rosidl_typesupport_c\n'}
+[1.461105] (msg) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp.o\x1b[0m\n'}
+[1.463663] (msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp.o\x1b[0m\n'}
+[1.463981] (msg) StdoutLine: {'line': b'[ 54%] Built target msg__rosidl_typesupport_fastrtps_c\n'}
+[1.465541] (msg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp.o\x1b[0m\n'}
+[1.502013] (-) TimerEvent: {}
+[1.602288] (-) TimerEvent: {}
+[1.678520] (msg) StdoutLine: {'line': b'running egg_info\n'}
+[1.702393] (-) TimerEvent: {}
+[1.702758] (msg) StdoutLine: {'line': b'writing msg.egg-info/PKG-INFO\n'}
+[1.703092] (msg) StdoutLine: {'line': b'writing dependency_links to msg.egg-info/dependency_links.txt\n'}
+[1.703368] (msg) StdoutLine: {'line': b'writing top-level names to msg.egg-info/top_level.txt\n'}
+[1.749368] (msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:8\x1b[m\x1b[K:\n'}
+[1.749683] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:98:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.750038] (msg) StderrLine: {'line': b'   98 |     msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> *;\n'}
+[1.750739] (msg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.751062] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:100:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.751282] (msg) StderrLine: {'line': b'  100 |     const msg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KController_<ContainerAllocator> *;\n'}
+[1.751488] (msg) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.751685] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:100:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.751904] (msg) StderrLine: {'line': b'  100 |     const\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K::msg::Controller_<ContainerAllocator> *;\n'}
+[1.752122] (msg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[1.752321] (msg) StderrLine: {'line': b'      |          \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.752517] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.752733] (msg) StderrLine: {'line': b'  102 |     std::shared_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>;\n'}
+[1.752974] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.753203] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.753502] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.753804] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.753986] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.754177] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.754351] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.754518] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.754686] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.754853] (msg) StderrLine: {'line': b'  102 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K;\n'}
+[1.755042] (msg) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.755233] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.755425] (msg) StderrLine: {'line': b'  104 |     std::shared_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> const>;\n'}
+[1.755614] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.755808] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.756005] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.756268] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.756550] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.756758] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.757060] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.757341] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.757620] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.757855] (msg) StderrLine: {'line': b'  104 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator> const\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.758069] (msg) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.758294] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.758704] (msg) StderrLine: {'line': b'  107 |       msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>>\n'}
+[1.759047] (msg) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.759275] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.759490] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.759700] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.759903] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.760117] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.760343] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.760551] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.760754] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.760959] (msg) StderrLine: {'line': b'  107 |       msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K>\n'}
+[1.761181] (msg) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.761381] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.761583] (msg) StderrLine: {'line': b'  109 |     std::unique_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>, Deleter>;\n'}
+[1.761783] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.761983] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.762220] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.762421] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.762624] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.762814] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.763008] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.763212] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.763405] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.763626] (msg) StderrLine: {'line': b'  109 |     std::unique_ptr<msg::msg::Controller_<ContainerAllocator>, Deleter\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.763819] (msg) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.764021] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[1.764236] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:111:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KUniquePtrWithDeleter\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.764440] (msg) StderrLine: {'line': b'  111 |   using UniquePtr = \x1b[01;31m\x1b[KUniquePtrWithDeleter\x1b[m\x1b[K<>;\n'}
+[1.764644] (msg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.764848] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.765103] (msg) StderrLine: {'line': b'  114 |       msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>>\n'}
+[1.765315] (msg) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.765522] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.765717] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.765920] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.766133] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.766332] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.766537] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.766740] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.766946] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.767154] (msg) StderrLine: {'line': b'  114 |       msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K>\n'}
+[1.767380] (msg) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.767579] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.767784] (msg) StderrLine: {'line': b'  116 |     std::unique_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> const, Deleter>;\n'}
+[1.768009] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.768224] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.768446] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.768644] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.768847] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.769061] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.769268] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.769472] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.769675] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.769876] (msg) StderrLine: {'line': b'  116 |     std::unique_ptr<msg::msg::Controller_<ContainerAllocator> const, Deleter\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.770084] (msg) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.770282] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[1.770506] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:117:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KConstUniquePtrWithDeleter\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.770715] (msg) StderrLine: {'line': b'  117 |   using ConstUniquePtr = \x1b[01;31m\x1b[KConstUniquePtrWithDeleter\x1b[m\x1b[K<>;\n'}
+[1.770916] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.771126] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.771328] (msg) StderrLine: {'line': b'  120 |     std::weak_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>;\n'}
+[1.771526] (msg) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.771725] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.771923] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.772129] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.772325] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.772522] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.772723] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.772920] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.773149] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.773346] (msg) StderrLine: {'line': b'  120 |     std::weak_ptr<msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K;\n'}
+[1.773544] (msg) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.773752] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.773958] (msg) StderrLine: {'line': b'  122 |     std::weak_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> const>;\n'}
+[1.774169] (msg) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.774371] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.774574] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.774780] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.774976] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.775248] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.775471] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.775669] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.775869] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.776111] (msg) StderrLine: {'line': b'  122 |     std::weak_ptr<msg::msg::Controller_<ContainerAllocator> const\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.776314] (msg) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.776511] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.776714] (msg) StderrLine: {'line': b'  127 |     std::shared_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>\n'}
+[1.776912] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.777121] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.777321] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.777523] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.777720] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.777915] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.778148] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.778345] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.778561] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.778755] (msg) StderrLine: {'line': b'  127 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K\n'}
+[1.778950] (msg) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.779153] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.779411] (msg) StderrLine: {'line': b'  130 |     std::shared_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> const>\n'}
+[1.779614] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.779813] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.780051] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.780261] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.780457] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.780657] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.780862] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.781072] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.781274] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.781473] (msg) StderrLine: {'line': b'  130 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator> const\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[1.781673] (msg) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.781875] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:155:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.782084] (msg) StderrLine: {'line': b'  155 |   msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<std::allocator<void>>;\n'}
+[1.782275] (msg) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.782475] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:93:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KController\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KController_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.782726] (msg) StderrLine: {'line': b'   93 | get_message_type_support_handle<msg::msg::\x1b[01;31m\x1b[KController\x1b[m\x1b[K>()\n'}
+[1.782919] (msg) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.783127] (msg) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[KController_\x1b[m\x1b[K\n'}
+[1.783349] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:93:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate-id \xe2\x80\x98\x1b[01m\x1b[Kget_message_type_support_handle<<expression error> >\x1b[m\x1b[K\xe2\x80\x99 for \xe2\x80\x98\x1b[01m\x1b[Kconst rosidl_message_type_support_t* rosidl_typesupport_cpp::\x1b[01;32m\x1b[Kget_message_type_support_handle\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 does not match any template declaration\n'}
+[1.783570] (msg) StderrLine: {'line': b'   93 | \x1b[01;31m\x1b[Kget_message_type_support_handle<msg::msg::Controller>\x1b[m\x1b[K()\n'}
+[1.783771] (msg) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.783970] (msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:10\x1b[m\x1b[K:\n'}
+[1.784188] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> const rosidl_message_type_support_t* rosidl_typesupport_cpp::\x1b[01;32m\x1b[Kget_message_type_support_handle\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.784397] (msg) StderrLine: {'line': b'   25 | const rosidl_message_type_support_t * \x1b[01;36m\x1b[Kget_message_type_support_handle\x1b[m\x1b[K();\n'}
+[1.784611] (msg) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.784817] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kconst rosidl_message_type_support_t* rosidl_typesupport_cpp::\x1b[01;32m\x1b[Krosidl_typesupport_cpp__get_message_type_support_handle__msg__msg__Controller\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.785027] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:106:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KController\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KController_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.785310] (msg) StderrLine: {'line': b'  106 |   return get_message_type_support_handle<msg::msg::\x1b[01;31m\x1b[KController\x1b[m\x1b[K>();\n'}
+[1.785521] (msg) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.785728] (msg) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[KController_\x1b[m\x1b[K\n'}
+[1.785931] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:106:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kget_message_type_support_handle<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.786148] (msg) StderrLine: {'line': b'  106 |   return \x1b[01;31m\x1b[Kget_message_type_support_handle<msg::msg::Controller>()\x1b[m\x1b[K;\n'}
+[1.786350] (msg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.786545] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> const rosidl_message_type_support_t* rosidl_typesupport_cpp::\x1b[01;32m\x1b[Kget_message_type_support_handle\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.786780] (msg) StderrLine: {'line': b'   25 | const rosidl_message_type_support_t * \x1b[01;36m\x1b[Kget_message_type_support_handle\x1b[m\x1b[K();\n'}
+[1.786986] (msg) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.787200] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.787408] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp:106:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.787623] (msg) StderrLine: {'line': b'  106 |   return \x1b[01;31m\x1b[Kget_message_type_support_handle<msg::msg::Controller>()\x1b[m\x1b[K;\n'}
+[1.787833] (msg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.788048] (msg) StdoutLine: {'line': b"reading manifest file 'msg.egg-info/SOURCES.txt'\n"}
+[1.788266] (msg) StdoutLine: {'line': b"writing manifest file 'msg.egg-info/SOURCES.txt'\n"}
+[1.800646] (msg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/msg__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg/msg/controller__type_support.cpp.o] Error 1\n'}
+[1.801002] (msg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/msg__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[1.801242] (msg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.802510] (-) TimerEvent: {}
+[1.803722] (msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:13\x1b[m\x1b[K:\n'}
+[1.804051] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:98:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.804399] (msg) StderrLine: {'line': b'   98 |     msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> *;\n'}
+[1.804607] (msg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.804813] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:100:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.805012] (msg) StderrLine: {'line': b'  100 |     const msg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KController_<ContainerAllocator> *;\n'}
+[1.805520] (msg) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.805724] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:100:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.805906] (msg) StderrLine: {'line': b'  100 |     const\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K::msg::Controller_<ContainerAllocator> *;\n'}
+[1.806093] (msg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[1.806285] (msg) StderrLine: {'line': b'      |          \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.806458] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.806627] (msg) StderrLine: {'line': b'  102 |     std::shared_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>;\n'}
+[1.806796] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.806966] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.807173] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.807371] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.807640] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.807988] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.808347] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.808799] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.809479] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.810542] (msg) StderrLine: {'line': b'  102 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K;\n'}
+[1.810826] (msg) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.811135] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.811330] (msg) StderrLine: {'line': b'  104 |     std::shared_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> const>;\n'}
+[1.811511] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.811687] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.811867] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.812062] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.812246] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.812421] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.812631] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.812812] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.813004] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.813197] (msg) StderrLine: {'line': b'  104 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator> const\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.813376] (msg) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.813553] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.813734] (msg) StderrLine: {'line': b'  107 |       msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>>\n'}
+[1.813909] (msg) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.814097] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.814369] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.814575] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.814882] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.815183] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.815488] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.815777] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.816001] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.816262] (msg) StderrLine: {'line': b'  107 |       msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K>\n'}
+[1.816476] (msg) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.816698] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.816982] (msg) StderrLine: {'line': b'  109 |     std::unique_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>, Deleter>;\n'}
+[1.817256] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.817432] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.817600] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.817790] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.817962] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.818145] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.818333] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.818501] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.818684] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.818847] (msg) StderrLine: {'line': b'  109 |     std::unique_ptr<msg::msg::Controller_<ContainerAllocator>, Deleter\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.819012] (msg) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.819195] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[1.819702] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:111:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KUniquePtrWithDeleter\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.819974] (msg) StderrLine: {'line': b'  111 |   using UniquePtr = \x1b[01;31m\x1b[KUniquePtrWithDeleter\x1b[m\x1b[K<>;\n'}
+[1.820291] (msg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.820495] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.820722] (msg) StderrLine: {'line': b'  114 |       msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>>\n'}
+[1.820932] (msg) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.821154] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.821358] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.821562] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.821765] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.821964] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.822183] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.822389] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.822590] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.822798] (msg) StderrLine: {'line': b'  114 |       msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K>\n'}
+[1.823004] (msg) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.823223] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.823468] (msg) StderrLine: {'line': b'  116 |     std::unique_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> const, Deleter>;\n'}
+[1.823675] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.823916] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.824140] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.824346] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.824547] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.824750] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.824956] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.825170] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.825371] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.825581] (msg) StderrLine: {'line': b'  116 |     std::unique_ptr<msg::msg::Controller_<ContainerAllocator> const, Deleter\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.825786] (msg) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.825988] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[1.826214] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:117:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KConstUniquePtrWithDeleter\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.826442] (msg) StderrLine: {'line': b'  117 |   using ConstUniquePtr = \x1b[01;31m\x1b[KConstUniquePtrWithDeleter\x1b[m\x1b[K<>;\n'}
+[1.826644] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.826845] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.827061] (msg) StderrLine: {'line': b'  120 |     std::weak_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>;\n'}
+[1.827336] (msg) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.827542] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.827799] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.828011] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.828309] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.828590] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.828810] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.829011] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.829224] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.829425] (msg) StderrLine: {'line': b'  120 |     std::weak_ptr<msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K;\n'}
+[1.829622] (msg) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.829821] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.830025] (msg) StderrLine: {'line': b'  122 |     std::weak_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> const>;\n'}
+[1.830234] (msg) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.830433] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.830668] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.830907] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.831175] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.831392] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.831592] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.831791] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.831991] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.832225] (msg) StderrLine: {'line': b'  122 |     std::weak_ptr<msg::msg::Controller_<ContainerAllocator> const\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.832428] (msg) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.832634] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.832838] (msg) StderrLine: {'line': b'  127 |     std::shared_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>\n'}
+[1.833049] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.833252] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.833456] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.833718] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.833993] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.834327] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.834600] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.834814] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.835049] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.835282] (msg) StderrLine: {'line': b'  127 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K\n'}
+[1.835489] (msg) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.835693] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.835901] (msg) StderrLine: {'line': b'  130 |     std::shared_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> const>\n'}
+[1.836115] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.836315] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.836508] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.836726] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.836928] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.837136] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.837335] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.837535] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.837735] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.837943] (msg) StderrLine: {'line': b'  130 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator> const\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[1.838153] (msg) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.838353] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:155:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.838558] (msg) StderrLine: {'line': b'  155 |   msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<std::allocator<void>>;\n'}
+[1.838778] (msg) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.838981] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid msg::msg::rosidl_typesupport_introspection_cpp::\x1b[01;32m\x1b[KController_init_function\x1b[m\x1b[K(void*, rosidl_runtime_cpp::MessageInitialization)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.839201] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:32:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.839408] (msg) StderrLine: {'line': b'   32 |   new (message_memory) msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller(_init);\n'}
+[1.839610] (msg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.839810] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:30:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_init\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.840043] (msg) StderrLine: {'line': b'   30 |   void * message_memory, \x1b[01;35m\x1b[Krosidl_runtime_cpp::MessageInitialization _init\x1b[m\x1b[K)\n'}
+[1.840245] (msg) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.840444] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid msg::msg::rosidl_typesupport_introspection_cpp::\x1b[01;32m\x1b[KController_fini_function\x1b[m\x1b[K(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.840647] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:37:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.840850] (msg) StderrLine: {'line': b'   37 |   auto typed_message = static_cast<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller *>(message_memory);\n'}
+[1.841063] (msg) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.841259] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:37:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.841462] (msg) StderrLine: {'line': b'   37 |   auto typed_message = static_cast<msg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KController *>(message_memory);\n'}
+[1.841661] (msg) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.841879] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:37:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.842093] (msg) StderrLine: {'line': b'   37 |   auto typed_message = static_cast<msg::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KController *>(message_memory);\n'}
+[1.842294] (msg) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.842525] (msg) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K(\x1b[m\x1b[K\n'}
+[1.842725] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:37:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::Controller\x1b[m\x1b[K\xe2\x80\x99 has not been declared; did you mean \xe2\x80\x98\x1b[01m\x1b[KController_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.842938] (msg) StderrLine: {'line': b'   37 |   auto typed_message = static_cast<msg::msg::\x1b[01;31m\x1b[KController\x1b[m\x1b[K *>(message_memory);\n'}
+[1.843157] (msg) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.843359] (msg) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[KController_\x1b[m\x1b[K\n'}
+[1.843559] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:37:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.843757] (msg) StderrLine: {'line': b'   37 |   auto typed_message = static_cast<msg::msg::Controller *\x1b[01;31m\x1b[K>\x1b[m\x1b[K(message_memory);\n'}
+[1.843959] (msg) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.844169] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:37:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.844375] (msg) StderrLine: {'line': b'   37 |   auto typed_message = static_cast<msg::msg::Controller *>(message_memory)\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[1.844600] (msg) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.844799] (msg) StderrLine: {'line': b'      |                                                                           \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.844990] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:38:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected class-name before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.845195] (msg) StderrLine: {'line': b'   38 |   typed_message->~Controller\x1b[01;31m\x1b[K(\x1b[m\x1b[K);\n'}
+[1.845394] (msg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.845592] (msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/time.h:29\x1b[m\x1b[K,\n'}
+[1.845792] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pthread.h:23\x1b[m\x1b[K,\n'}
+[1.845993] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:35\x1b[m\x1b[K,\n'}
+[1.846203] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:148\x1b[m\x1b[K,\n'}
+[1.846392] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/ext/atomicity.h:35\x1b[m\x1b[K,\n'}
+[1.846583] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:61\x1b[m\x1b[K,\n'}
+[1.846750] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[1.846915] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[1.847094] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:14\x1b[m\x1b[K:\n'}
+[1.847280] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.847455] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:51:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.847651] (msg) StderrLine: {'line': b'   51 |     offsetof(msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller, velx),  // bytes offset in struct\n'}
+[1.847844] (msg) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.848050] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:51:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.848254] (msg) StderrLine: {'line': b'   51 |     offsetof(msg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KController, velx),  // bytes offset in struct\n'}
+[1.848456] (msg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.848659] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:51:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::::Controller\x1b[m\x1b[K\xe2\x80\x99 is not a class member\n'}
+[1.848885] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:51:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.849113] (msg) StderrLine: {'line': b'   51 |     \x1b[01;31m\x1b[Koffsetof\x1b[m\x1b[K(msg::msg::Controller, velx),  // bytes offset in struct\n'}
+[1.849315] (msg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.849516] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:69:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.849718] (msg) StderrLine: {'line': b'   69 |     offsetof(msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller, vely),  // bytes offset in struct\n'}
+[1.849918] (msg) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.850127] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:69:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.850332] (msg) StderrLine: {'line': b'   69 |     offsetof(msg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KController, vely),  // bytes offset in struct\n'}
+[1.850532] (msg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.850743] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:69:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::::Controller\x1b[m\x1b[K\xe2\x80\x99 is not a class member\n'}
+[1.850942] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:69:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.851172] (msg) StderrLine: {'line': b'   69 |     \x1b[01;31m\x1b[Koffsetof\x1b[m\x1b[K(msg::msg::Controller, vely),  // bytes offset in struct\n'}
+[1.851368] (msg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.851564] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:87:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.851753] (msg) StderrLine: {'line': b'   87 |     offsetof(msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller, angvel),  // bytes offset in struct\n'}
+[1.851946] (msg) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.852149] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:87:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.852347] (msg) StderrLine: {'line': b'   87 |     offsetof(msg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KController, angvel),  // bytes offset in struct\n'}
+[1.852540] (msg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.852736] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:87:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::::Controller\x1b[m\x1b[K\xe2\x80\x99 is not a class member\n'}
+[1.852951] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:87:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.853158] (msg) StderrLine: {'line': b'   87 |     \x1b[01;31m\x1b[Koffsetof\x1b[m\x1b[K(msg::msg::Controller, angvel),  // bytes offset in struct\n'}
+[1.853354] (msg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.853541] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:102:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg::msg::msg\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.853740] (msg) StderrLine: {'line': b'  102 |   sizeof(msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller),\n'}
+[1.853934] (msg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.854135] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:131:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KController\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KController_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.854334] (msg) StderrLine: {'line': b'  131 | get_message_type_support_handle<msg::msg::\x1b[01;31m\x1b[KController\x1b[m\x1b[K>()\n'}
+[1.854528] (msg) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.854721] (msg) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[KController_\x1b[m\x1b[K\n'}
+[1.854913] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:131:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate-id \xe2\x80\x98\x1b[01m\x1b[Kget_message_type_support_handle<<expression error> >\x1b[m\x1b[K\xe2\x80\x99 for \xe2\x80\x98\x1b[01m\x1b[Kconst rosidl_message_type_support_t* rosidl_typesupport_introspection_cpp::\x1b[01;32m\x1b[Kget_message_type_support_handle\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 does not match any template declaration\n'}
+[1.855184] (msg) StderrLine: {'line': b'  131 | \x1b[01;31m\x1b[Kget_message_type_support_handle<msg::msg::Controller>\x1b[m\x1b[K()\n'}
+[1.855383] (msg) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.855581] (msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp:17\x1b[m\x1b[K:\n'}
+[1.855777] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp:32:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> const rosidl_message_type_support_t* rosidl_typesupport_introspection_cpp::\x1b[01;32m\x1b[Kget_message_type_support_handle\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.856009] (msg) StderrLine: {'line': b'   32 | const rosidl_message_type_support_t * \x1b[01;36m\x1b[Kget_message_type_support_handle\x1b[m\x1b[K();\n'}
+[1.856218] (msg) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.856415] (msg) StdoutLine: {'line': b'[ 57%] Built target ament_cmake_python_build_msg_egg\n'}
+[1.856623] (msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:12\x1b[m\x1b[K,\n'}
+[1.856824] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[1.857025] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:98:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.857246] (msg) StderrLine: {'line': b'   98 |     msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> *;\n'}
+[1.857394] (msg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.857533] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:100:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.857676] (msg) StderrLine: {'line': b'  100 |     const msg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KController_<ContainerAllocator> *;\n'}
+[1.857812] (msg) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.857947] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:100:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.858090] (msg) StderrLine: {'line': b'  100 |     const\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K::msg::Controller_<ContainerAllocator> *;\n'}
+[1.858226] (msg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[1.858378] (msg) StderrLine: {'line': b'      |          \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.858511] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.858659] (msg) StderrLine: {'line': b'  102 |     std::shared_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>;\n'}
+[1.858793] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.858927] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.859069] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.859195] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.859329] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.859461] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.859595] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.859726] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.859859] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:102:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.860006] (msg) StderrLine: {'line': b'  102 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K;\n'}
+[1.860148] (msg) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.860280] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.860426] (msg) StderrLine: {'line': b'  104 |     std::shared_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> const>;\n'}
+[1.860561] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.860694] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.860805] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.860925] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.861074] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.861190] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.861302] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.861413] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.861522] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:104:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.861646] (msg) StderrLine: {'line': b'  104 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator> const\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.861779] (msg) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.861924] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.862055] (msg) StderrLine: {'line': b'  107 |       msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>>\n'}
+[1.862168] (msg) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.862278] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.862388] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.862499] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.862609] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.862717] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.862827] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.862936] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.863059] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:107:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.863171] (msg) StderrLine: {'line': b'  107 |       msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K>\n'}
+[1.863280] (msg) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.863391] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.863502] (msg) StderrLine: {'line': b'  109 |     std::unique_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>, Deleter>;\n'}
+[1.863626] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.863738] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.863849] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.863958] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.864080] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.864188] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.864311] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.864429] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.864538] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.864647] (msg) StderrLine: {'line': b'  109 |     std::unique_ptr<msg::msg::Controller_<ContainerAllocator>, Deleter\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.864756] (msg) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.864870] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:109:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[1.864989] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:111:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KUniquePtrWithDeleter\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.865128] (msg) StderrLine: {'line': b'  111 |   using UniquePtr = \x1b[01;31m\x1b[KUniquePtrWithDeleter\x1b[m\x1b[K<>;\n'}
+[1.865239] (msg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.865357] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.865574] (msg) StderrLine: {'line': b'  114 |       msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>>\n'}
+[1.865734] (msg) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.865889] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.866072] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.866243] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.866411] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.866578] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.866746] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.866913] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.867086] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:114:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.867254] (msg) StderrLine: {'line': b'  114 |       msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K>\n'}
+[1.867421] (msg) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.867588] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.867769] (msg) StderrLine: {'line': b'  116 |     std::unique_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> const, Deleter>;\n'}
+[1.867936] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.868110] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.868278] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.868445] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.868612] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.868777] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.868945] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.869120] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.869287] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.869454] (msg) StderrLine: {'line': b'  116 |     std::unique_ptr<msg::msg::Controller_<ContainerAllocator> const, Deleter\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.869632] (msg) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.869798] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:116:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[1.869964] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:117:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KConstUniquePtrWithDeleter\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.870130] (msg) StderrLine: {'line': b'  117 |   using ConstUniquePtr = \x1b[01;31m\x1b[KConstUniquePtrWithDeleter\x1b[m\x1b[K<>;\n'}
+[1.870244] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.870354] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.870466] (msg) StderrLine: {'line': b'  120 |     std::weak_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>;\n'}
+[1.870576] (msg) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.870684] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.870795] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.870904] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.871014] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.871145] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.871266] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.871376] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.871485] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:120:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.871594] (msg) StderrLine: {'line': b'  120 |     std::weak_ptr<msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K;\n'}
+[1.871703] (msg) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.871813] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.871925] (msg) StderrLine: {'line': b'  122 |     std::weak_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> const>;\n'}
+[1.872041] (msg) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.872153] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.872263] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.872372] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.872480] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.872589] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.872699] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.872808] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.872917] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:122:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.873027] (msg) StderrLine: {'line': b'  122 |     std::weak_ptr<msg::msg::Controller_<ContainerAllocator> const\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[1.873148] (msg) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.873256] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.873365] (msg) StderrLine: {'line': b'  127 |     std::shared_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator>>\n'}
+[1.873474] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.873582] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.873692] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.873815] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.873923] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.874038] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.874179] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.874288] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.874397] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:127:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.874507] (msg) StderrLine: {'line': b'  127 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator\x1b[01;31m\x1b[K>>\x1b[m\x1b[K\n'}
+[1.874616] (msg) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.874725] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.874835] (msg) StderrLine: {'line': b'  130 |     std::shared_ptr<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<ContainerAllocator> const>\n'}
+[1.874944] (msg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.875063] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.875173] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.875284] (msg) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.875394] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.875531] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.875654] (msg) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.875763] (msg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.875879] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:130:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.875994] (msg) StderrLine: {'line': b'  130 |     std::shared_ptr<msg::msg::Controller_<ContainerAllocator> const\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[1.876120] (msg) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.876230] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_generator_cpp/msg/msg/detail/controller__struct.hpp:155:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.876342] (msg) StderrLine: {'line': b'  155 |   msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller_<std::allocator<void>>;\n'}
+[1.876450] (msg) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.876571] (msg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/msg__rosidl_typesupport_introspection_cpp.dir/build.make:91: CMakeFiles/msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg/msg/detail/controller__type_support.cpp.o] Error 1\n'}
+[1.876682] (msg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:418: CMakeFiles/msg__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[1.902647] (-) TimerEvent: {}
+[1.961497] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:40:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.961832] (msg) StderrLine: {'line': b'   40 |   const msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller & ros_message,\n'}
+[1.961957] (msg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.962083] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:40:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.962200] (msg) StderrLine: {'line': b'   40 |   const msg::msg::Controller \x1b[01;31m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.962313] (msg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.962426] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:40:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.962540] (msg) StderrLine: {'line': b'   40 |   const msg::msg::Controller\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.962650] (msg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.962760] (msg) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.962870] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:39:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.962996] (msg) StderrLine: {'line': b'   39 | cdr_serialize\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[1.963121] (msg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.963233] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:40:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kros_message\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.963357] (msg) StderrLine: {'line': b'   40 |   const msg::msg::Controller & \x1b[01;31m\x1b[Kros_message\x1b[m\x1b[K,\n'}
+[1.963466] (msg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.963577] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:47:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg::msg::msg\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.963688] (msg) StderrLine: {'line': b'   47 |   msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller & ros_message);\n'}
+[1.963799] (msg) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.963909] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:47:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.964042] (msg) StderrLine: {'line': b'   47 |   msg::msg::Controller \x1b[01;31m\x1b[K&\x1b[m\x1b[K ros_message);\n'}
+[1.964156] (msg) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.964268] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:52:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.964381] (msg) StderrLine: {'line': b'   52 |   const msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller & ros_message,\n'}
+[1.964490] (msg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.964626] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:52:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.964754] (msg) StderrLine: {'line': b'   52 |   const msg::msg::Controller \x1b[01;31m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.964864] (msg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.964974] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:52:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.965102] (msg) StderrLine: {'line': b'   52 |   const msg::msg::Controller\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.965214] (msg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.965324] (msg) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.965433] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:51:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.965544] (msg) StderrLine: {'line': b'   51 | get_serialized_size\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[1.965654] (msg) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.965763] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:52:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kros_message\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.965873] (msg) StderrLine: {'line': b'   52 |   const msg::msg::Controller & \x1b[01;31m\x1b[Kros_message\x1b[m\x1b[K,\n'}
+[1.965983] (msg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.966104] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:65:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.966218] (msg) StderrLine: {'line': b'   65 |   const msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller & ros_message,\n'}
+[1.966341] (msg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.966451] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:65:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.966570] (msg) StderrLine: {'line': b'   65 |   const msg::msg::Controller \x1b[01;31m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.966684] (msg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.966804] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:65:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.966917] (msg) StderrLine: {'line': b'   65 |   const msg::msg::Controller\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.967026] (msg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.967151] (msg) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.967262] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:64:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.967391] (msg) StderrLine: {'line': b'   64 | cdr_serialize_key\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[1.967500] (msg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.967609] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:65:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kros_message\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.967720] (msg) StderrLine: {'line': b'   65 |   const msg::msg::Controller & \x1b[01;31m\x1b[Kros_message\x1b[m\x1b[K,\n'}
+[1.967830] (msg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.967941] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:71:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.968060] (msg) StderrLine: {'line': b'   71 |   const msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller & ros_message,\n'}
+[1.968170] (msg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.968279] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:71:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.968391] (msg) StderrLine: {'line': b'   71 |   const msg::msg::Controller \x1b[01;31m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.968500] (msg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.968609] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:71:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.968735] (msg) StderrLine: {'line': b'   71 |   const msg::msg::Controller\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.968856] (msg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.968966] (msg) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.969084] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:70:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.969198] (msg) StderrLine: {'line': b'   70 | get_serialized_size_key\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[1.969307] (msg) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.969417] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:71:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kros_message\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.969655] (msg) StderrLine: {'line': b'   71 |   const msg::msg::Controller & \x1b[01;31m\x1b[Kros_message\x1b[m\x1b[K,\n'}
+[1.969772] (msg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.969883] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:36:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.970003] (msg) StderrLine: {'line': b'   36 |   const msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller & ros_message,\n'}
+[1.970131] (msg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.970242] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:36:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.970355] (msg) StderrLine: {'line': b'   36 |   const msg::msg::Controller \x1b[01;31m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.970465] (msg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.970576] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:36:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.970702] (msg) StderrLine: {'line': b'   36 |   const msg::msg::Controller\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.970813] (msg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.970922] (msg) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.971037] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:35:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.971150] (msg) StderrLine: {'line': b'   35 | cdr_serialize\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[1.971259] (msg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.971368] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:36:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kros_message\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.971490] (msg) StderrLine: {'line': b'   36 |   const msg::msg::Controller & \x1b[01;31m\x1b[Kros_message\x1b[m\x1b[K,\n'}
+[1.971610] (msg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.971719] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:55:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg::msg::msg\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.971830] (msg) StderrLine: {'line': b'   55 |   msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller & ros_message)\n'}
+[1.972127] (msg) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.972244] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:55:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.972417] (msg) StderrLine: {'line': b'   55 |   msg::msg::Controller \x1b[01;31m\x1b[K&\x1b[m\x1b[K ros_message)\n'}
+[1.972531] (msg) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.972642] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool msg::msg::typesupport_fastrtps_cpp::\x1b[01;32m\x1b[Kcdr_deserialize\x1b[m\x1b[K(eprosima::fastcdr::Cdr&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.972754] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:58:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros_message\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.972867] (msg) StderrLine: {'line': b'   58 |   cdr >> \x1b[01;31m\x1b[Kros_message\x1b[m\x1b[K.velx;\n'}
+[1.972978] (msg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.973156] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:55:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KController\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.973457] (msg) StderrLine: {'line': b'   55 |   \x1b[01;35m\x1b[Kmsg::msg::Controller\x1b[m\x1b[K & ros_message)\n'}
+[1.973576] (msg) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.973745] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.973864] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:73:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.973981] (msg) StderrLine: {'line': b'   73 |   const msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller & ros_message,\n'}
+[1.974107] (msg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.974219] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:73:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.974345] (msg) StderrLine: {'line': b'   73 |   const msg::msg::Controller \x1b[01;31m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.974505] (msg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.974733] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:73:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.974853] (msg) StderrLine: {'line': b'   73 |   const msg::msg::Controller\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.974981] (msg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.975231] (msg) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.975351] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:72:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.975467] (msg) StderrLine: {'line': b'   72 | get_serialized_size\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[1.975578] (msg) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.975687] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:73:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kros_message\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.975799] (msg) StderrLine: {'line': b'   73 |   const msg::msg::Controller & \x1b[01;31m\x1b[Kros_message\x1b[m\x1b[K,\n'}
+[1.975911] (msg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.976021] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksize_t msg::msg::typesupport_fastrtps_cpp::\x1b[01;32m\x1b[Kmax_serialized_size_Controller\x1b[m\x1b[K(bool&, bool&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.976148] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:154:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.976274] (msg) StderrLine: {'line': b'  154 |     using DataType = msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller;\n'}
+[1.976384] (msg) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.976493] (msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/strings.h:23\x1b[m\x1b[K,\n'}
+[1.976602] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/string.h:462\x1b[m\x1b[K,\n'}
+[1.976804] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/cstring:42\x1b[m\x1b[K,\n'}
+[1.977026] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/fastcdr/fastcdr/Cdr.h:22\x1b[m\x1b[K,\n'}
+[1.977156] (msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp:26\x1b[m\x1b[K:\n'}
+[1.977270] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:157:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataType\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.977400] (msg) StderrLine: {'line': b'  157 |       offsetof(\x1b[01;31m\x1b[KDataType\x1b[m\x1b[K, angvel) +\n'}
+[1.977511] (msg) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.977622] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.977733] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:168:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.977856] (msg) StderrLine: {'line': b'  168 |   const msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller & ros_message,\n'}
+[1.977967] (msg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.978089] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:168:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.978202] (msg) StderrLine: {'line': b'  168 |   const msg::msg::Controller \x1b[01;31m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.978314] (msg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.978423] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:168:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.978535] (msg) StderrLine: {'line': b'  168 |   const msg::msg::Controller\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.978644] (msg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.978753] (msg) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.978861] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:167:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.978972] (msg) StderrLine: {'line': b'  167 | cdr_serialize_key\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[1.979095] (msg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.979215] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:168:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kros_message\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.979327] (msg) StderrLine: {'line': b'  168 |   const msg::msg::Controller & \x1b[01;31m\x1b[Kros_message\x1b[m\x1b[K,\n'}
+[1.979482] (msg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.979612] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:186:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.979787] (msg) StderrLine: {'line': b'  186 |   const msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller & ros_message,\n'}
+[1.979900] (msg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.980100] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:186:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.980264] (msg) StderrLine: {'line': b'  186 |   const msg::msg::Controller \x1b[01;31m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.980378] (msg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.980488] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:186:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.980600] (msg) StderrLine: {'line': b'  186 |   const msg::msg::Controller\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[K ros_message,\n'}
+[1.980710] (msg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.980832] (msg) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.980942] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:185:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.981064] (msg) StderrLine: {'line': b'  185 | get_serialized_size_key\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[1.981175] (msg) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.981284] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:186:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kros_message\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.981394] (msg) StderrLine: {'line': b'  186 |   const msg::msg::Controller & \x1b[01;31m\x1b[Kros_message\x1b[m\x1b[K,\n'}
+[1.981504] (msg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.981613] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksize_t msg::msg::typesupport_fastrtps_cpp::\x1b[01;32m\x1b[Kmax_serialized_size_key_Controller\x1b[m\x1b[K(bool&, bool&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.981727] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:268:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.981841] (msg) StderrLine: {'line': b'  268 |     using DataType = msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller;\n'}
+[1.981951] (msg) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.982082] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:271:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataType\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.982194] (msg) StderrLine: {'line': b'  271 |       offsetof(\x1b[01;31m\x1b[KDataType\x1b[m\x1b[K, angvel) +\n'}
+[1.982303] (msg) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.982413] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool msg::msg::typesupport_fastrtps_cpp::\x1b[01;32m\x1b[K_Controller__cdr_serialize\x1b[m\x1b[K(const void*, eprosima::fastcdr::Cdr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.982537] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:285:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.982652] (msg) StderrLine: {'line': b'  285 |     static_cast<const msg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KController *>(\n'}
+[1.982770] (msg) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.982880] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:285:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.982991] (msg) StderrLine: {'line': b'  285 |     static_cast<const \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::msg::Controller *>(\n'}
+[1.983111] (msg) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.983220] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:285:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.983330] (msg) StderrLine: {'line': b'  285 |     static_cast<const \x1b[01;31m\x1b[Km\x1b[m\x1b[K\x1b[32m\x1b[Ksg\x1b[m\x1b[K::msg::Controller *>(\n'}
+[1.983440] (msg) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[1.983550] (msg) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K(\x1b[m\x1b[K\n'}
+[1.983659] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:285:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg::msg::msg\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.983771] (msg) StderrLine: {'line': b'  285 |     static_cast<const msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller *>(\n'}
+[1.983880] (msg) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.983990] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:285:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.984113] (msg) StderrLine: {'line': b'  285 |     static_cast<const msg::msg::Controller *\x1b[01;31m\x1b[K>\x1b[m\x1b[K(\n'}
+[1.984224] (msg) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.984335] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:286:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.984458] (msg) StderrLine: {'line': b'  286 |     untyped_ros_message)\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[1.984568] (msg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.984678] (msg) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.984786] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:287:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcdr_serialize\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krosidl_typesupport_fastrtps_cpp::cdr_serialize\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.984909] (msg) StderrLine: {'line': b'  287 |   return \x1b[01;31m\x1b[Kcdr_serialize\x1b[m\x1b[K(*typed_message, cdr);\n'}
+[1.985018] (msg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.985140] (msg) StderrLine: {'line': b'      |          \x1b[32m\x1b[Krosidl_typesupport_fastrtps_cpp::cdr_serialize\x1b[m\x1b[K\n'}
+[1.985250] (msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:16\x1b[m\x1b[K:\n'}
+[1.985360] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp:30:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krosidl_typesupport_fastrtps_cpp::cdr_serialize\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.985471] (msg) StderrLine: {'line': b'   30 | inline void \x1b[01;36m\x1b[Kcdr_serialize\x1b[m\x1b[K(\n'}
+[1.985581] (msg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.985689] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool msg::msg::typesupport_fastrtps_cpp::\x1b[01;32m\x1b[K_Controller__cdr_deserialize\x1b[m\x1b[K(eprosima::fastcdr::Cdr&, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.985811] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:295:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.985922] (msg) StderrLine: {'line': b'  295 |     static_cast<msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller *>(\n'}
+[1.986039] (msg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.986159] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:295:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.986281] (msg) StderrLine: {'line': b'  295 |     static_cast<msg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KController *>(\n'}
+[1.986391] (msg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.986499] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:295:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.986609] (msg) StderrLine: {'line': b'  295 |     static_cast<msg::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KController *>(\n'}
+[1.986728] (msg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.986840] (msg) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K(\x1b[m\x1b[K\n'}
+[1.986949] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:295:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::Controller\x1b[m\x1b[K\xe2\x80\x99 has not been declared; did you mean \xe2\x80\x98\x1b[01m\x1b[KController_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.987085] (msg) StderrLine: {'line': b'  295 |     static_cast<msg::msg::\x1b[01;31m\x1b[KController\x1b[m\x1b[K *>(\n'}
+[1.987195] (msg) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.987303] (msg) StderrLine: {'line': b'      |                           \x1b[32m\x1b[KController_\x1b[m\x1b[K\n'}
+[1.987410] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:295:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.987519] (msg) StderrLine: {'line': b'  295 |     static_cast<msg::msg::Controller *\x1b[01;31m\x1b[K>\x1b[m\x1b[K(\n'}
+[1.987627] (msg) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.987737] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:296:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.987848] (msg) StderrLine: {'line': b'  296 |     untyped_ros_message)\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[1.987957] (msg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.988075] (msg) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.988184] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint32_t msg::msg::typesupport_fastrtps_cpp::\x1b[01;32m\x1b[K_Controller__get_serialized_size\x1b[m\x1b[K(const void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.988305] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:304:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.988418] (msg) StderrLine: {'line': b'  304 |     static_cast<const msg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KController *>(\n'}
+[1.988527] (msg) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.988637] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:304:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.988749] (msg) StderrLine: {'line': b'  304 |     static_cast<const \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::msg::Controller *>(\n'}
+[1.988857] (msg) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.988967] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:304:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.989089] (msg) StderrLine: {'line': b'  304 |     static_cast<const \x1b[01;31m\x1b[Km\x1b[m\x1b[K\x1b[32m\x1b[Ksg\x1b[m\x1b[K::msg::Controller *>(\n'}
+[1.989200] (msg) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[1.989310] (msg) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K(\x1b[m\x1b[K\n'}
+[1.989419] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:304:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg::msg::msg\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.989552] (msg) StderrLine: {'line': b'  304 |     static_cast<const msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Controller *>(\n'}
+[1.989662] (msg) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.989772] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:304:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.989882] (msg) StderrLine: {'line': b'  304 |     static_cast<const msg::msg::Controller *\x1b[01;31m\x1b[K>\x1b[m\x1b[K(\n'}
+[1.989995] (msg) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.990116] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:305:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.990227] (msg) StderrLine: {'line': b'  305 |     untyped_ros_message)\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[1.990337] (msg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.990446] (msg) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.990556] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:306:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_serialized_size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.990669] (msg) StderrLine: {'line': b'  306 |   return static_cast<uint32_t>(\x1b[01;31m\x1b[Kget_serialized_size\x1b[m\x1b[K(*typed_message, 0));\n'}
+[1.990778] (msg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.990888] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.990998] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:354:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KController\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmsg::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KController_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.991121] (msg) StderrLine: {'line': b'  354 | get_message_type_support_handle<msg::msg::\x1b[01;31m\x1b[KController\x1b[m\x1b[K>()\n'}
+[1.991232] (msg) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.991342] (msg) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[KController_\x1b[m\x1b[K\n'}
+[1.991452] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:354:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate-id \xe2\x80\x98\x1b[01m\x1b[Kget_message_type_support_handle<<expression error> >\x1b[m\x1b[K\xe2\x80\x99 for \xe2\x80\x98\x1b[01m\x1b[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_cpp::\x1b[01;32m\x1b[Kget_message_type_support_handle\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 does not match any template declaration\n'}
+[1.991570] (msg) StderrLine: {'line': b'  354 | \x1b[01;31m\x1b[Kget_message_type_support_handle<msg::msg::Controller>\x1b[m\x1b[K()\n'}
+[1.991691] (msg) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.991799] (msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fazal/ros2_ws/build/msg/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp:15\x1b[m\x1b[K:\n'}
+[1.991922] (msg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp:33:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> const rosidl_message_type_support_t* rosidl_typesupport_fastrtps_cpp::\x1b[01;32m\x1b[Kget_message_type_support_handle\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.992040] (msg) StderrLine: {'line': b'   33 | const rosidl_message_type_support_t * \x1b[01;36m\x1b[Kget_message_type_support_handle\x1b[m\x1b[K();\n'}
+[1.992153] (msg) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.002777] (-) TimerEvent: {}
+[2.017824] (msg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/msg__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg/msg/detail/dds_fastrtps/controller__type_support.cpp.o] Error 1\n'}
+[2.018101] (msg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:391: CMakeFiles/msg__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[2.018352] (msg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.020100] (msg) CommandEnded: {'returncode': 2}
+[2.029400] (msg) JobEnded: {'identifier': 'msg', 'rc': 2}
+[2.039965] (controller_package) JobSkipped: {'identifier': 'controller_package'}
+[2.040060] (-) EventReactorShutdown: {}

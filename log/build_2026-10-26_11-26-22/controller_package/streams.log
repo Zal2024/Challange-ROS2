@@ -1,0 +1,27 @@
+[0.016s] Invoking command in '/home/fazal/ros2_ws/build/controller_package': CMAKE_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/controller_package:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/fazal/ros2_ws/build/controller_package -- -j8 -l8
+[0.164s] [ 50%] Built target controller_publisher
+[0.244s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_subscriber.dir/src/controller_subscriber.cpp.o[0m
+[11.823s] [100%] [32m[1mLinking CXX executable controller_subscriber[0m
+[12.323s] [100%] Built target controller_subscriber
+[12.339s] Invoked command in '/home/fazal/ros2_ws/build/controller_package' returned '0': CMAKE_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/controller_package:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/fazal/ros2_ws/build/controller_package -- -j8 -l8
+[12.341s] Invoking command in '/home/fazal/ros2_ws/build/controller_package': CMAKE_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/controller_package:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/fazal/ros2_ws/build/controller_package
+[12.351s] -- Install configuration: ""
+[12.351s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/lib/controller_package/controller_publisher
+[12.351s] -- Installing: /home/fazal/ros2_ws/install/controller_package/lib/controller_package/controller_subscriber
+[12.368s] -- Set non-toolchain portion of runtime path of "/home/fazal/ros2_ws/install/controller_package/lib/controller_package/controller_subscriber" to ""
+[12.368s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/ament_index/resource_index/package_run_dependencies/controller_package
+[12.368s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/ament_index/resource_index/parent_prefix_path/controller_package
+[12.368s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/controller_package/environment/ament_prefix_path.sh
+[12.369s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/controller_package/environment/ament_prefix_path.dsv
+[12.369s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/controller_package/environment/path.sh
+[12.369s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/controller_package/environment/path.dsv
+[12.369s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/controller_package/local_setup.bash
+[12.369s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/controller_package/local_setup.sh
+[12.370s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/controller_package/local_setup.zsh
+[12.370s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/controller_package/local_setup.dsv
+[12.370s] -- Installing: /home/fazal/ros2_ws/install/controller_package/share/controller_package/package.dsv
+[12.370s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/ament_index/resource_index/packages/controller_package
+[12.371s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/controller_package/cmake/controller_packageConfig.cmake
+[12.371s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/controller_package/cmake/controller_packageConfig-version.cmake
+[12.373s] -- Up-to-date: /home/fazal/ros2_ws/install/controller_package/share/controller_package/package.xml
+[12.373s] Invoked command in '/home/fazal/ros2_ws/build/controller_package' returned '0': CMAKE_PREFIX_PATH=/home/fazal/ros2_ws/install/controller_msgs:/home/fazal/ros2_ws/install/controller_package:/home/fazal/ros2_ws/install/simple_demo_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/fazal/ros2_ws/build/controller_package

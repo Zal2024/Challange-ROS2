@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/fazal/ros2_ws/build/controller_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package
+[0.025s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.287s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.323s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.333s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.430s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.431s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.498s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.591s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.591s]   By not providing "Findcontroller_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.591s]   project has asked CMake to find a package configuration file provided by
+[0.591s]   "controller_msgs", but CMake did not find one.
+[0.591s] 
+[0.591s]   Could not find a package configuration file provided by "controller_msgs"
+[0.591s]   with any of the following names:
+[0.592s] 
+[0.592s]     controller_msgsConfig.cmake
+[0.592s]     controller_msgs-config.cmake
+[0.592s] 
+[0.592s]   Add the installation prefix of "controller_msgs" to CMAKE_PREFIX_PATH or
+[0.592s]   set "controller_msgs_DIR" to a directory containing one of the above files.
+[0.592s]   If "controller_msgs" provides a separate development package or SDK, be
+[0.593s]   sure it has been installed.
+[0.593s] 
+[0.593s] [0m
+[0.593s] -- Configuring incomplete, errors occurred!
+[0.600s] Invoked command in '/home/fazal/ros2_ws/build/controller_package' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/fazal/ros2_ws/src/simple_demo_cpp/include/simple_demo_cpp -DCMAKE_INSTALL_PREFIX=/home/fazal/ros2_ws/install/controller_package
